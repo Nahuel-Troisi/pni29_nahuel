@@ -19,7 +19,7 @@ Existen seis tipos de redes según su topología:
 
 <center>
 
-!(https://921c21b3-a-62cb3a1a-s-sites.googlegroups.com/site/tecnocompu3)
+!(/home/nahuel/Documentos/img_001.png)
 
 </center>
 
