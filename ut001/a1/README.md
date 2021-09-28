@@ -19,7 +19,7 @@ Existen seis tipos de redes según su topología:
 
 <center>
 
-!(https://921c21b3-a-62cb3a1a-s-sites.googlegroups.com/site/tecnocompu32/home/topologias-de-red/GRedesdecomunicaciones-img4.png?attachauth=ANoY7crNfXqHWCPVvDDBLG_ZU7IWxqPMXjhCSN3jYK6a5qA93qpc70Y5aXZ5MsO_j_hGSXLzNXnUXip8cF82CZ77rvZN0RjphSMZ6PyP_7A-s7_XCc5jtsPOi1AkC9Lb1OA_iRmG7djoIKPdIZH6Zm5N0SFtj7VcvoixpMg8siQ9PDsDdwQ6RowjNlkpDKePsvl-A6uXL7Tl0WslMWWQc2S65OQCJE09sjyswA-KvvkkFTjJl4PD5snG00-BCpx4fbjLEr39vdERtad9gQdFcAL5S-RZ_eG41w%3D%3D&attredirects=0)
+!(https://921c21b3-a-62cb3a1a-s-sites.googlegroups.com/site/tecnocompu3)
 
 </center>
 
