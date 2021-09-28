@@ -17,11 +17,8 @@ Existen seis tipos de redes según su topología:
 - Jerárquica
 - En malla
 
-<center>
+![Tipos de red según su topología](/home/nahuel/Documentos/img_001.png)
 
-![](/home/nahuel/Documentos/img_001.png)
-
-</center>
 
 
 
