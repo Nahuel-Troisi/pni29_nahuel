@@ -18,7 +18,7 @@ Existen seis tipos de redes según su topología:
 - En malla
 
 <center>
-!(/home/nahuel/Documentos/img_001.png)
+!(/home/nahuel/Documentos/img001.png)
 
 
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
