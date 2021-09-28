@@ -10,12 +10,15 @@ Existen tres tipos de transmisión:
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
 Existen seis tipos de redes según su topología:
-- De bus:
-- De anillo:
-- En estrella:
-- En estrella extendida:
-- Jerárquica:
-- En malla: 
+- De bus
+- De anillo
+- En estrella
+- En estrella extendida
+- Jerárquica
+- En malla
+
+<center>
+!(/home/nahuel/Documentos/img_001.png)
 
 
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
