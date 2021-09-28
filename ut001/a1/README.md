@@ -19,7 +19,7 @@ Existen seis tipos de redes según su topología:
 - Jerárquica
 - En malla
 
-
+En primer lugar, la red de tipo __Bus__ posee como ventaja principal el hecho de compartir información de manera directa con todos los dispositivos que se conecten a la red 
 
 
 
