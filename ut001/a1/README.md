@@ -2,22 +2,23 @@
 
 ### 1. Defina los tres modos de transmisión.
 Existen tres tipos de transmisión:
+~~~
 - Simplex: Los datos fluyen en una única dirección. Un claro ejemplo sería la radio o la televisión.  
 
 - Half-duplex: En este caso, los datos se transmiten de forma bidireccional, es decir, en ambos sentidos, pero no pueden ser procesados de forma simultanea. 
 
 - Full-duplex: Los datos se transmiten en ambos sentidos y de forma simultanea.  
-
+~~~
 ### 2. Indique las ventajas de cada tipo de topología de red.
 Existen seis tipos de redes según su topología:
+~~~
 - De bus
 - De anillo
 - En estrella
 - En estrella extendida
 - Jerárquica
 - En malla
-
-![Tipos de red según su topología](/home/nahuel/Documentos/img002.png)
+~~~
 
 
 
