@@ -4,7 +4,7 @@
 Existen tres tipos de transmisión:
 - Simplex: Los datos fluyen en una única dirección. Un claro ejemplo sería la radio o la televisión.  
 
-- Half-duplex: En este caso, los datos se transmiten de forma direccional, es decir, en ambos sentidos, pero no pueden ser procesados de forma simultanea. 
+- Half-duplex: En este caso, los datos se transmiten de forma bidireccional, es decir, en ambos sentidos, pero no pueden ser procesados de forma simultanea. 
 
 - Full-duplex: Los datos se transmiten en ambos sentidos y de forma simultanea.  
 
