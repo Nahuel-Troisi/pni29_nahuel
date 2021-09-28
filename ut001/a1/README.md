@@ -1,4 +1,4 @@
-# ESTA ES LA ACTIVIDAD 1
+#ACTIVIDAD 1
 
 1. Defina los tres modos de transmisión.
 
