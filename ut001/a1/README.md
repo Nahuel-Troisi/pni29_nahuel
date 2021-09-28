@@ -2,13 +2,11 @@
 
 ### 1. Defina los tres modos de transmisión.
 Existen tres tipos de transmisión:
-.. * Simplex: 
+- Simplex: 
 
-..* Half-duplex:
+- Half-duplex:
 
-..* Full-duplex: 
-
-
+- Full-duplex: 
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
 
