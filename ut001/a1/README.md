@@ -8,6 +8,7 @@ Existen tres tipos de transmisión:
 
 ..* Full-duplex: 
 
+
 ### 2. Indique las ventajas de cada tipo de topología de red.
 
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
