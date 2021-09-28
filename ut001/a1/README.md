@@ -1,4 +1,4 @@
-#ACTIVIDAD 1
+#ACTIVIDAD 1 PNI
 
 1. Defina los tres modos de transmisión.
 
