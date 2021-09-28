@@ -2,11 +2,11 @@
 
 ### 1. Defina los tres modos de transmisión.
 Existen tres tipos de transmisión:
-- Simplex: 
+- Simplex: Los datos fluyen en una única dirección. Un claro ejemplo sería la radio o la televisión.  
 
-- Half-duplex:
+- Half-duplex: En este caso, los datos se transmiten de forma direccional, es decir, en ambos sentidos, pero no pueden ser procesados de forma simultanea. 
 
-- Full-duplex: 
+- Full-duplex: Los datos se transmiten en ambos sentidos y de forma simultanea.  
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
 
