@@ -14,7 +14,7 @@
 
 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
 
-8. ¿Qué es una internet? ¿Qué es Internet?
+8. ¿Qué es una intranet? ¿Qué es Internet?
 
 9. ¿Qué topología necesita un controlador central o un concentrador?
 
@@ -34,6 +34,9 @@
 
 17. Defina el tipo de topología de las siguientes figuras:
 
+
+
+
 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
        a) Se pueden añadir nuevos dispositivos fácilmente.
@@ -51,3 +54,5 @@
      b ) Una conversación educada entre tía Gertrudis y tía Rowena. 
 
      c ) Una emisión por televisión.
+
+
