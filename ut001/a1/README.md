@@ -9,6 +9,14 @@ Existen tres tipos de transmisión:
 - Full-duplex: Los datos se transmiten en ambos sentidos y de forma simultanea.  
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
+Existen seis tipos de redes según su topología:
+- De bus:
+- De anillo:
+- En estrella:
+- En estrella extendida:
+- Jerárquica:
+- En malla: 
+
 
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
 
