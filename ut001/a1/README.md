@@ -1,6 +1,12 @@
 # ACTIVIDAD 1 PNI
 
 ### 1. Defina los tres modos de transmisión.
+Existen tres tipos de transmisión:
+.. * Simplex: 
+
+..* Half-duplex:
+
+..* Full-duplex: 
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
 
