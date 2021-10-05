@@ -88,8 +88,7 @@ Forma de __Árbol o Jerárquica__
 ### 17. Defina el tipo de topología de las siguientes figuras:
 
 
-!(https://github.com/Nahuel-Troisi/pni29_nahuel/blob/d2574eee1323f7c3b8f73a98e4b651108aa9f0ba/ut001/a1/img0001.png)
-
+!(https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut001/a1/img0001.png)
 
 
 ### 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
