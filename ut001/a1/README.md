@@ -52,6 +52,9 @@ En el caso de la __Topología de Bus__, posee un mantenimiento de la red muy cos
 
 
 ### 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
+En el caso de la __Topología de Bus__, un fallo en el enlace provocaría una interrupción en todas las transmisiones. Por otro lado, la __Topología de Anillo__ la ruptura de cualquier enlace provocaría la caida de toda la red. En cuanto a la __Topología de Estrella__, si falla un enlace, únicamente se vería afectado dicho enlace, cacaterística que comparte con la __Topología Jerárquica__. Finalmente, la __Topología en Malla__ redirigiría la red por otro enlace si alguno de estos falla. 
+
+
 
 ### 8. ¿Qué es una intranet? ¿Qué es Internet?
 
