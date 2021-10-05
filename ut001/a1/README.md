@@ -107,6 +107,9 @@ Forma de __Árbol o Jerárquica__
 ###       c) El tiempo de transmisión se gasta reenviando los datos a través de nodos intermedios.
 
 ### 19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
+En este caso, se está utilizando una configuración de línea __Punto a Punto__, ya que dos, y únicamente dos, dispositivos se conectan a través del enlace dedicado. 
+
+
 
 ### 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
