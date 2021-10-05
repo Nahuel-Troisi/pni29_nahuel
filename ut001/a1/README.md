@@ -28,14 +28,17 @@ Finalmente, la red de tipo __Malla__ permite a todos los dispositivos estar cone
 
 
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
-Los tipos de redes según su tamaño se clasifican de la siguiente manera:
+El factor diferencial de estos tres tipos de redes es principalmente el tamaño del  mismo, que se clasifica de la siguiente manera:
 
--LAN: 
--MAN:
--WAN:
+- LAN:Pensada principalmente para uso doméstico, ya sea en una planta o edificio, cuya característica principal es la alta velocidad de transferencia y su fiabilidad.  
+- MAN:Es el tipo de red empleada en las áreas metropolitanas, pudiendo abarcar ciudades enteras. 
+- WAN:Permite la conexión de redes de área extensa, es decir, entre países y continentes. No obstante, suelen ser redes de muy baja velocidad de transferencia y alta tasa de errores. 
 
 
 ### 4. Enumere las cinco topologías básicas de red.
+
+
+
 
 ### 5. Indique una desventaja de cada tipo de topología de red.
 
