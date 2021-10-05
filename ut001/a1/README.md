@@ -3,11 +3,11 @@
 ### 1. Defina los tres modos de transmisión.
 Existen tres tipos de transmisión:
 
-- Simplex: Los datos fluyen en una única dirección. Un claro ejemplo sería la radio o la televisión.  
+- __Simplex__ : Los datos fluyen en una única dirección. Un claro ejemplo sería la radio o la televisión.  
 
-- Half-duplex: En este caso, los datos se transmiten de forma bidireccional, es decir, en ambos sentidos, pero no pueden ser procesados de forma simultanea. 
+- __Half-duplex__ : En este caso, los datos se transmiten de forma bidireccional, es decir, en ambos sentidos, pero no pueden ser procesados de forma simultanea. 
 
-- Full-duplex: Los datos se transmiten en ambos sentidos y de forma simultanea.  
+- __Full-duplex__ : Los datos se transmiten en ambos sentidos y de forma simultanea.  
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
 Existen seis tipos de redes según su topología:
@@ -30,9 +30,9 @@ Finalmente, la red de tipo __Malla__ permite a todos los dispositivos estar cone
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
 El factor diferencial de estos tres tipos de redes es principalmente el tamaño del  mismo, que se clasifica de la siguiente manera:
 
-- LAN: Pensada principalmente para uso doméstico, ya sea en una planta o edificio, cuya característica principal es la alta velocidad de transferencia y su fiabilidad.  
-- MAN: Es el tipo de red empleada en las áreas metropolitanas, pudiendo abarcar ciudades enteras. 
-- WAN: Permite la conexión de redes de área extensa, es decir, entre países y continentes. No obstante, suelen ser redes de muy baja velocidad de transferencia y alta tasa de errores. 
+- __LAN__ : Pensada principalmente para uso doméstico, ya sea en una planta o edificio, cuya característica principal es la alta velocidad de transferencia y su fiabilidad.  
+- __MAN__ : Es el tipo de red empleada en las áreas metropolitanas, pudiendo abarcar ciudades enteras. 
+- __WAN__ : Permite la conexión de redes de área extensa, es decir, entre países y continentes. No obstante, suelen ser redes de muy baja velocidad de transferencia y alta tasa de errores. 
 
 
 ### 4. Enumere las cinco topologías básicas de red.
