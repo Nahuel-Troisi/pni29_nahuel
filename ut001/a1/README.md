@@ -58,28 +58,44 @@ En el caso de la __Topología de Bus__, un fallo en el enlace provocaría una in
 
 ### 8. ¿Qué es una intranet? ¿Qué es Internet?
 - Una __Intranet__ es un conjunto de redes interconectadas entre sí. Utilizada normalmente en empresas
-- __Internet__ es la red de ámbito mundial, cuyo acceso está permitido a cualquier usuario. Comunmente conocido como World Wide Web (WWW).
+- __Internet__ es la red de ámbito mundial, cuyo acceso está permitido a cualquier usuario. Comúnmente conocido como World Wide Web (WWW).
 
 
 ### 9. ¿Qué topología necesita un controlador central o un concentrador?
 Necesita una topología de tipo __Estrella__
 
 
-### 10. La comunicación entre una computadora y un teclado implica una transmisión _________
+### 10. La comunicación entre una computadora y un teclado implica una transmisión ...
+De tipo __Simplex__
 
 ### 11. En una red con 25 computadoras, ¿qué topología necesitaría el cableado más extenso?
+Una __Topología en Malla__
 
-### 12. Una topología en árbol es una variación de una topología en _____________
 
-### 13. Una conexión ___________   proporciona un enlace dedicado entre dos dispositivos.
+### 12. Una topología en árbol es una variación de una topología en ...
+__Estrella__
 
-### 14.En la transmisión__________________   , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
+### 13. Una conexión ...  proporciona un enlace dedicado entre dos dispositivos.
+__Punto a Punto__
 
-### 15. Una rotura de cable en una topología en _______________   detiene toda la transmisión.
 
-### 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en____________
+### 14.En la transmisión ... , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
+__Full-Duplex__
+
+
+### 15. Una rotura de cable en una topología en ... detiene toda la transmisión.
+__Bus__
+
+
+### 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en ...
+__Árbol o Jerárquica__
+
+
 
 ### 17. Defina el tipo de topología de las siguientes figuras:
+
+
+
 
 ### 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
