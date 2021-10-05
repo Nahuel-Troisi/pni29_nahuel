@@ -73,22 +73,22 @@ Una __Topología en Malla__
 
 
 ### 12. Una topología en árbol es una variación de una topología en ...
-__Estrella__
+Topología en __Estrella__
 
 ### 13. Una conexión ...  proporciona un enlace dedicado entre dos dispositivos.
-__Punto a Punto__
+de tipo __Punto a Punto__
 
 
 ### 14.En la transmisión ... , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
-__Full-Duplex__
+de tipo __Full-Duplex__
 
 
 ### 15. Una rotura de cable en una topología en ... detiene toda la transmisión.
-__Bus__
+el tipo __Bus__
 
 
 ### 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en ...
-__Árbol o Jerárquica__
+forma de __Árbol o Jerárquica__
 
 
 
