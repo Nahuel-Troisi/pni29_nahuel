@@ -10,14 +10,6 @@ Existen tres tipos de transmisión:
 - __Full-duplex__ : Los datos se transmiten en ambos sentidos y de forma simultanea.  
 
 ### 2. Indique las ventajas de cada tipo de topología de red.
-Existen seis tipos de redes según su topología:
-
-- De bus
-- De anillo
-- En estrella
-- En estrella extendida
-- Jerárquica
-- En malla
 
 En primer lugar, la red de tipo __Bus__ posee como ventaja principal el hecho de compartir información de manera directa con todos los dispositivos que se conecten a la red.
 Por otro lado, la red de tipo __Anillo__ permite a los dispositivos conectarse entre sí mediante una cadena. 
