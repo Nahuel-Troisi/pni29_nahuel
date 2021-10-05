@@ -110,10 +110,10 @@ En este caso, se está utilizando una configuración de línea __Punto a Punto__
 ### 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
 ###     a ) Una conexión computadora a monitor.
-Half-Duplex
+Full-Duplex
 
 ###     b ) Una conversación educada entre tía Gertrudis y tía Rowena. 
-Full-Duplex
+Half-Duplex
 
 
 ###     c ) Una emisión por televisión.
