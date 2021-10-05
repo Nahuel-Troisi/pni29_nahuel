@@ -48,16 +48,17 @@ En el caso de la __Topología de Bus__, posee un mantenimiento de la red muy cos
 
 
 ### 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
-
-
-
+- En el caso de la _Topología en Malla__, se necesita __N(N-1)/2__ dispositivos por enlace. 
+- En cuanto a la _Topología en Bus__, se necesita __N__  dispositivos por cada __ N+1__  enlaces.
+- Por otro lado, la __Topología de Anillo__ necesita __ N__  dispositivos por cada __ N__  enlaces.
+- La __Topología en Estrella__ posee un concentrador, el cual tiene que poseer __N__ puertos por cada __N__ dispositivos.  
 ### 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
 En el caso de la __Topología de Bus__, un fallo en el enlace provocaría una interrupción en todas las transmisiones. Por otro lado, en la  __Topología de Anillo__, la ruptura de cualquier enlace provocaría la caida de toda la red. En cuanto a la __Topología de Estrella__, si falla un enlace, únicamente se vería afectado dicho enlace, cacaterística que comparte con la __Topología Jerárquica__. Finalmente, la __Topología en Malla__ redirigiría la red por otro enlace si alguno de estos falla. 
 
 
 
 ### 8. ¿Qué es una intranet? ¿Qué es Internet?
-- Una __Intranet__ es un conjunto de redes interconectadas entre sí. Utilizada normalmente en empresas
+- Una __Intranet__ es un conjunto de redes interconectadas entre sí. Utilizada normalmente en empresas.
 - __Internet__ es la red de ámbito mundial, cuyo acceso está permitido a cualquier usuario. Comúnmente conocido como World Wide Web (WWW).
 
 
@@ -76,19 +77,19 @@ Una __Topología en Malla__
 Topología en __Estrella__
 
 ### 13. Una conexión ...  proporciona un enlace dedicado entre dos dispositivos.
-de tipo __Punto a Punto__
+De tipo __Punto a Punto__
 
 
 ### 14.En la transmisión ... , la capacidad del canal es siempre compartida por los dos dispositivos que se comunican.
-de tipo __Full-Duplex__
+De tipo __Full-Duplex__
 
 
 ### 15. Una rotura de cable en una topología en ... detiene toda la transmisión.
-el tipo __Bus__
+El tipo __Bus__
 
 
 ### 16. Una red que contiene múltiples concentradores está configurada muy probablemente como una topología en ...
-forma de __Árbol o Jerárquica__
+Forma de __Árbol o Jerárquica__
 
 
 
