@@ -87,7 +87,7 @@ Forma de __Árbol o Jerárquica__
 
 ### 17. Defina el tipo de topología de las siguientes figuras:
 <center
-!(/home/nahuel/pni29_nahuel/ut001/a1/img0001.png
+!(/home/nahuel/pni29_nahuel/ut001/a1/img0001.png)
 </center	
 
 
