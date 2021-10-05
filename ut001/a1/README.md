@@ -91,10 +91,16 @@ Forma de __Árbol o Jerárquica__
 ### 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
 ###       a) Se pueden añadir nuevos dispositivos fácilmente.
+Sería el caso de la __Topología en Bus__ y la de __Topología en Anillo__ .
+
 
 ###       b) El control se efectúa a través de un nodo central.
+En este caso serían válidas la __Topología de Estrella__, la __Topología de Estrella Extendida__ y la __Topología Jerárquica__ . 
+
 
 ###       c) El tiempo de transmisión se gasta reenviando los datos a través de nodos intermedios.
+Sería aplicable en la __Topología de Malla__ y en la __Topología de Estrella Extendida__ .
+
 
 ### 19. Cuando alguien hace una llamada telefónica local a otra persona, ¿está usando una configuración de línea punto a punto o multipunto? Explique su respuesta.
 En este caso, se está utilizando una configuración de línea __Punto a Punto__, ya que dos, y únicamente dos, dispositivos se conectan a través del enlace dedicado. 
@@ -104,9 +110,12 @@ En este caso, se está utilizando una configuración de línea __Punto a Punto__
 ### 20. ¿Qué modo de transmisión (símplex, semidúplex o full-dúplex) se puede comparar a los siguientes?
 
 ###     a ) Una conexión computadora a monitor.
+Half-Duplex
 
 ###     b ) Una conversación educada entre tía Gertrudis y tía Rowena. 
+Full-Duplex
+
 
 ###     c ) Una emisión por televisión.
-
+Simplex
 
