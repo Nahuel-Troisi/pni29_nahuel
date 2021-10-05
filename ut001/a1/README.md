@@ -57,8 +57,13 @@ En el caso de la __Topología de Bus__, un fallo en el enlace provocaría una in
 
 
 ### 8. ¿Qué es una intranet? ¿Qué es Internet?
+- Una __Intranet__ es un conjunto de redes interconectadas entre sí. Utilizada normalmente en empresas
+- __Internet__ es la red de ámbito mundial, cuyo acceso está permitido a cualquier usuario. Comunmente conocido como World Wide Web (WWW).
+
 
 ### 9. ¿Qué topología necesita un controlador central o un concentrador?
+Necesita una topología de tipo __Estrella__
+
 
 ### 10. La comunicación entre una computadora y un teclado implica una transmisión _________
 
