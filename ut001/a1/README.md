@@ -43,7 +43,7 @@ En el caso de la __Topología de Bus__, posee un mantenimiento de la red muy cos
 - En el caso de la __Topología en Malla__, se necesita __N(N-1)/2__ dispositivos por enlace. 
 - En cuanto a la __Topología en Bus__, se necesita __N__  dispositivos por cada __N+1__  enlaces.
 - Por otro lado, la __Topología de Anillo__ necesita __N__  dispositivos por cada __N__  enlaces.
-- La __Topología en Estrella__ posee un concentrador, el cual tiene que poseer __N__ puertos por cada __N__ dispositivos.  
+- La __Topología en Estrella__ posee un concentrador, el cual necesita  __N__ puertos por cada __N__ dispositivos.  
 ### 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
 En el caso de la __Topología de Bus__, un fallo en el enlace provocaría una interrupción en todas las transmisiones. Por otro lado, en la  __Topología de Anillo__, la ruptura de cualquier enlace provocaría la caida de toda la red. En cuanto a la __Topología de Estrella__, si falla un enlace, únicamente se vería afectado dicho enlace, cacaterística que comparte con la __Topología Jerárquica__. Finalmente, la __Topología en Malla__ redirigiría la red por otro enlace si alguno de estos falla. 
 
