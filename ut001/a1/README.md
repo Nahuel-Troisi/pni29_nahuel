@@ -36,13 +36,20 @@ El factor diferencial de estos tres tipos de redes es principalmente el tamaño 
 
 
 ### 4. Enumere las cinco topologías básicas de red.
-
-
+- Topología de Bus 
+- Topología de Anillo
+- Topología de Estrella
+- Topología Jerárquica
+- Topología en Malla
 
 
 ### 5. Indique una desventaja de cada tipo de topología de red.
+En el caso de la __Topología de Bus__, posee un mantenimiento de la red muy costoso. En cuanto a la __Topología de Anillo__, si falla un canal, falla toda la red. Por otro lado, la __Topología de Estrella__ depende de las limitaciones del HUB o SWITCH a la hora de conectar muchos dispositivos a la red. En cuanto a la __Topología Jerárquica__, si el nodo principal falla, ocasiona un efecto dominó en toda la red. Finalmente, la __Topología en Malla__ requiere un capital muy grande para la creación de la misma.    
+
 
 ### 6. Para una red con n dispositivos, ¿cuál es el número de enlaces de cable necesarios para una malla, un anillo, un bus y una topología en estrella?
+
+
 
 ### 7. Para cada tipo de topología de red, indique las implicaciones de que exista un fallo de un único cable.
 
