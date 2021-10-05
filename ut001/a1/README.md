@@ -20,14 +20,20 @@ Existen seis tipos de redes según su topología:
 - En malla
 
 En primer lugar, la red de tipo __Bus__ posee como ventaja principal el hecho de compartir información de manera directa con todos los dispositivos que se conecten a la red.
-En segundo lugar, la red de tipo __Anillo__ permite a los dispositivos conectarse entre sí mediante una cadena. 
-En tercer lugar, la red de tipo __Estrella__ permite que los nodos de comuniquen entre sí.
-En cuarto lugar, la red de tipo __Estrella Extendida__ ofrece las mismas características que la red anterior además de acortar el cableado necesario para conectar los dispositivos. 
-En quinto lugar, la red de tipo __Jerárquica__ permite una conexión en forma de ramificación escalonada, de manera que se aislan los fallos por capas. 
-En sexto lugar, la red de tipo __Malla__ permite a todos los dispositivos estar conetados entre sí aunque uno de los nodos falle. 
+Por otro lado, la red de tipo __Anillo__ permite a los dispositivos conectarse entre sí mediante una cadena. 
+No obstante, la red de tipo __Estrella__ permite que los nodos de comuniquen entre sí.
+En cuanto a la red de tipo __Estrella Extendida__ ofrece las mismas características que la red anterior además de acortar el cableado necesario para conectar los dispositivos. 
+Aun así, la red de tipo __Jerárquica__ permite una conexión en forma de ramificación escalonada, de manera que se aislan los fallos por capas. 
+Finalmente, la red de tipo __Malla__ permite a todos los dispositivos estar conetados entre sí aunque uno de los nodos falle. 
 
 
 ### 3. ¿Cuáles son los factores que determinan que un sistema de comunicación sea una LAN, MAN o WAN?
+Los tipos de redes según su tamaño se clasifican de la siguiente manera:
+
+-LAN: 
+-MAN:
+-WAN:
+
 
 ### 4. Enumere las cinco topologías básicas de red.
 
