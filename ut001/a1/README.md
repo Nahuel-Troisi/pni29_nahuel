@@ -88,6 +88,11 @@ Forma de __Árbol o Jerárquica__
 ### 17. Defina el tipo de topología de las siguientes figuras:
 ![](./img0001.png)	
 
+- __Figura 1__ : Topología en Bus 
+- __Figura 2__ : Topología en Estrella
+- __Figura 3__ : Topología en Estrella Extendida
+- __Figura 4__ : Topología Jerárquica
+- __Figura 5__ : Topología en Anillo
 ### 18. Relacione los conceptos siguientes con una topología de red (cada uno se puede aplicar a más de una topología):
 
 ###       a) Se pueden añadir nuevos dispositivos fácilmente.
