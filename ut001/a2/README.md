@@ -2,8 +2,10 @@
 
 Realizar las siguientes conversiones entre sistemas numéricos. Para cada una de las conversiones muestra el proceso que has seguido para hacerlas.
 ### 1. Para pasar de binario a decimal:
-- -  __a) 11001__: 
-- -  __b) 1011011011__:
+~~~
+-  __a) 11001__: 
+-  __b) 1011011011__:
+~~~
 ### 2. Para pasar de decimal a binario:
 -  __a) 869__:
 -  __b) 8426__:
