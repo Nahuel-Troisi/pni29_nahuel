@@ -1,21 +1,21 @@
 # ACTIVIDAD 2 PNI
 
 Realizar las siguientes conversiones entre sistemas numéricos. Para cada una de las conversiones muestra el proceso que has seguido para hacerlas.
-### 1. Para pasar de binario a decimal
--  a) 11001 Solución:
--  b) 1011011011 Solución:
-### 2. Para pasar de decimal a binario
--  a) 869 Solución:
--  b) 8426 Solución:
-### 3. Para pasar de binario a octal
--  a) 111010101 Solución:
--  b) 11011, 01 Solución:
-### 4. Para pasar de octal a binario
--  a) 2066 Solución:
--  b) 14276 Solución:
-### 5. Para pasar de binario a hexadecimal
--  a) 110001000 Solución:
--  b) 100010,110 Solución:
-### 6. Para pasar de hexadecimal a binario
--  a) 86BF Solución:
--  b) 2D5E Solución: 
+### 1. Para pasar de binario a decimal:
+-  a) __11001__ : 
+-  b) __1011011011__ :
+### 2. Para pasar de decimal a binario:
+-  a) __869__ :
+-  b) __8426__ :
+### 3. Para pasar de binario a octal:
+-  a) __111010101__ :
+-  b) __11011, 01__ :
+### 4. Para pasar de octal a binario:
+-  a) __2066__ :
+-  b) __14276__ :
+### 5. Para pasar de binario a hexadecimal:
+-  a) __110001000__ :
+-  b) __100010,110__ :
+### 6. Para pasar de hexadecimal a binario:
+-  a) __86BF__ :
+-  b) __2D5E__ :
