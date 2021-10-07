@@ -9,7 +9,7 @@ Realizar las siguientes conversiones entre sistemas numéricos. Para cada una de
 -  __b) 8426__:
 ### 3. Para pasar de binario a octal:
 -  __a) 111010101__:
--  __b) 11011, 01__:
+-  __b) 11011,01__:
 ### 4. Para pasar de octal a binario:
 -  __a) 2066__:
 -  __b) 14276__:
