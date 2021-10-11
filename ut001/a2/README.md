@@ -20,6 +20,6 @@ Realizar las siguientes conversiones entre sistemas numéricos. Para cada una de
 -  __a) 86BF__: 1000011010101111
 -  __b) 2D5E__: 0010110101011110
 
-![](./img0002.gpg)
+![](./img0002.jpg)
 ![](./img0003.jpg)
 
