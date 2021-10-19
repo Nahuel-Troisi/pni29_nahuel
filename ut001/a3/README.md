@@ -1,26 +1,38 @@
 # ACTIVIDAD 3 PNI
 
 ### 1. ¿Cuál es la diferencia entre información y señales?
+La diferencia principal es que la __información__ es el medio por donde 
+se trasnportan los datos, mientras que las __señales__ codifican dichos datos. 
 
 ### 2. Da dos ejemplos de información analógica y dos de digital.
+- __Señal Analógica__ : Altavoz, Termómetro, Radio...
+- __Señal Digital__ : Procesador, Memoria RAM, Cámara Digital...
 
 ### 3. Se ha recibido una señal que solamente tiene valores –1, 0 y 1 ¿Es esta una señal analógica o digital? Razona la respuesta.
 
+
 ### 4. ¿Cuál es la relación entre el periodo y la frecuencia?
+La relación existente entre esta dos magnitudes es que la __Frecuencia__ es 
+la inversa del __Periodo__, siendo su fórmula f=1/T
 
 ### 5. ¿Cuál es la diferencia entre una señal periódica simple y una señal periódica compuesta?
 
+
 ### 6. ¿Cuál es el ancho de banda en relación a su espectro de frecuencias?
+El __Ancho de Banda__ es directamente proporcional a la __Fecuencia__ , por lo que
+cuanto mayor frecuencia, mayor ancho de banda y viceversa. 
 
 ### 7. ¿Qué es el intervalo de bit y cuál es su contraparte en una señal analógica?
 
+
 ### 8. Idem para la tasa de bits.
+
 
 ### 9. Antes de poder transmitir la información, debe transformarse en:
 
 - a. señales periódicas
 
-- b. señales electromagnéticas
+- __b. señales electromagnéticas__
 
 - c. señales aperiódicas
 
@@ -32,7 +44,7 @@
 
 - b. 100 Hz 
 
-- c. 1 KHz 
+- __c. 1 KHz__ 
 
 - d. 1 MHz
 
@@ -45,11 +57,11 @@
 
 - c. potencia
 
-- d. todas las anteriores
+- __d. todas las anteriores__
 
 ### 12.¿Cuál es el ancho de banda de una señal cuyo rango varía de 40 KHz a 4 MHz?
 
-- a. 36 MHz 
+- __a. 36 MHz__ 
 
 - b. 360 KHz 
 
