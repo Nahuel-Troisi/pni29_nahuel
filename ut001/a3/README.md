@@ -2,7 +2,7 @@
 
 ### 1. ¿Cuál es la diferencia entre información y señales?
 La diferencia principal es que la __información__ es el medio por donde 
-se trasnportan los datos, mientras que las __señales__ codifican dichos datos. 
+se transportan los datos, mientras que las __señales__ codifican dichos datos. 
 
 ### 2. Da dos ejemplos de información analógica y dos de digital.
 - __Señal Analógica__ : Altavoz, Termómetro, Radio...
@@ -73,7 +73,7 @@ cuanto mayor frecuencia, mayor ancho de banda y viceversa.
 
 - a. Exactamente un número impar de ondas seno
 
-- b. Un conjunto de ondas seno
+- __b. Un conjunto de ondas seno__
 
 - c. Un conjunto de ondas seno, cada uno de los cuales debe tener una fase de cero grados
 
@@ -85,13 +85,13 @@ cuanto mayor frecuencia, mayor ancho de banda y viceversa.
 
 - b. 1
 
-- c. -2
+- __c. -2__
 
 - d. entre -2 y 2
 
 ### 15. Una onda seno completa 1.000 ciclos en un segundo. ¿Cuál es su periodo?
 
-- a. 1 ms
+- __a. 1 ms__
 
 - b. 10 ms
 
