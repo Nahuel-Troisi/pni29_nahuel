@@ -17,8 +17,9 @@ la inversa del __Periodo__, siendo su fórmula f=1/T.
 
 ### 5. ¿Cuál es la diferencia entre una señal periódica simple y una señal periódica compuesta?
 La __Señal Periódica Compuesta__ se trata de la combinación de varias señales 
-periódicas simples, mientras que en las __Señales Periódicas 
-Simples__, solo se muestra una onda seno que no puede descomponerse en otras ondas.
+periódicas simples (descompuestas en varias ondas seno), mientras que en 
+las __Señales Periódicas Simples__, solo se muestra una onda seno que no 
+puede descomponerse en otras ondas.
 
 ### 6. ¿Cuál es el ancho de banda en relación a su espectro de frecuencias?
 El __Ancho de Banda__ es directamente proporcional a la __Fecuencia__ , por lo que
