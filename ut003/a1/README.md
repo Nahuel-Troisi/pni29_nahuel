@@ -69,7 +69,6 @@ Podemos citar varios servicios, como por ejemplo:
 ### 17. ¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
 <center>
 ![](./img0004.png)
-</center>
 ### 18. El nivel____________ decide la localización de los puntos de sincronización.
 - a) de transporte
 - __b) de sesión__
