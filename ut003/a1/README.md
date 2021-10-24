@@ -49,13 +49,18 @@ según la capacidad de procesamiento del receptor), control de congestión (cant
 comunicación extremo a extremo y control de errores entre extremos.
 
 ### 11.El nivel de transporte crea una conexión entre el origen y el destino. ¿Cuáles son los tres eventos involucrados en la conexión?
-
+Los tres elementos involucrados son los siguientes:
+- Establecimiento de la conexión
+- Transferencia de datos
+- Liberación de la conexión 
 ### 12.¿Cuál es la diferencia entre una dirección de punto en servicio, una dirección lógica y una dirección fisica? 
 
 ### 13.¿Cuáles son las responsabilidades del nivel de sesión? 
-
+El __nivel de sesión__ tiene como principal objetivo el control del diáologo (permite que dos sistemas establezcan una conexión)
+y además la sincronización (permite a un proceso añadir checkpoints en el flujo de datos). 
 ### 14.Cuáles son las responsabilidades del nivel de presentación? 
-
+La función del __nivel de presentación__ es asegurar la comunicación entre distintos dispositivos mediante la transformación 
+de datos a un formato común. 
 ### 15.¿Cuál es el objetivo de la traducción en el nivel de presentación? 
 El objetivo es que las aplicaciones puedan trabajar de forma independiente al tipo de codificación utilizada.
 ### 16. Indique alguno de los servicios proporcionados por el nivel de aplicación. 
@@ -67,15 +72,10 @@ Podemos citar varios servicios, como por ejemplo:
 - Servicios DNS
 - Servicios DHCP
 ### 17. ¿Cómo se relacionan los niveles de la familia del protocolo TCP/IP con los niveles del modelo OSI?
-<center>
-
+El modelo de protocolo OSI está formado por siete niveles: Físico, Enlace de datos, Red, Transporte, Sesión, Presentación y Aplicación.
+No obstante, en el modelo TCP/IP, los tres niveles superiores del modelo OSI se agrupan en un único nivel, demonimado Aplicación. 
 
 ![](./img0004.png)
-
-
-</center>
-
-
 
 ### 18. El nivel____________ decide la localización de los puntos de sincronización.
 - a) de transporte
