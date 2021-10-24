@@ -54,6 +54,8 @@ Los tres elementos involucrados son los siguientes:
 - Transferencia de datos
 - Liberación de la conexión 
 ### 12.¿Cuál es la diferencia entre una dirección de punto en servicio, una dirección lógica y una dirección fisica? 
+La __dirección física__ es siempre la misma, independientemente del lugar en donde se encuentre el host (MAC).No obstante,
+la __dirección lógica__ está asignada de función a la red a la que estés conectado (IP).
 
 ### 13.¿Cuáles son las responsabilidades del nivel de sesión? 
 El __nivel de sesión__ tiene como principal objetivo el control del diáologo (permite que dos sistemas establezcan una conexión)
