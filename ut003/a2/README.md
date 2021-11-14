@@ -122,7 +122,7 @@
 
 <center>
 
-![](img/001.png)
+![](../001.png)
 
 </center>
 
