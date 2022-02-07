@@ -1,13 +1,14 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# PRÁCTICA DE CABLE UTP
 
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***NAHUEL IVAN TROISI***
+<br>
+***1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.***
 
 ### ÍNDICE
 
@@ -20,7 +21,7 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a realizar la instalación de un cableado UTP y a verificar su correcto funcionamiento. 
 
 #### ***Objetivos***. <a name="id2"></a>
 
