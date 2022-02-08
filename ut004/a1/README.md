@@ -25,19 +25,47 @@ Vamos a realizar la instalación de un cableado UTP y a verificar su correcto fu
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+En esta práctica vamos a aprender a realizar la instalación de un cable UTP, así como efectuar el crimpado de los cables en el conector rj45 macho siguiendo el esquema tipo B.
+Una vez realizado este proceso, en el otro extremo del cable vamos a proceder a instalar el conector rj45 hembra, siguiendo el correspondiente orden de colores.
+Finalmente, vamos a extraer el conector hembra y lo vamos a reemplazar por un tipo macho, pero utilizaremos el esquema tipo A.
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
++ Cable UTP
++ Conectores RJ45 (Macho)
++ Crimpadora
++ Tester
++ Conector RJ45 (Hembra)
++ Alicates o Tijeras
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+1. Extraemos un trozo de cable UTP de aproximadamente 1,2m de largo.
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120100811.jpg" alt="cable" style="width:200px;"/>
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
+2. Quitamos el recubrimiento exterior del cable para dejar libres los 8 hilos del par trenzado.
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120101217.jpg" alt="cable pelado" style="width:300px;"/>
+
+3. Desenrollamos los cables y los alineamos para que queden rectos. 
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120101730.jpg" alt="cable pelado" style="width:200px;"/>
+
+4. Cortamos el cable de la forma más recta posible para poder insertarlo sin dificultades en el conector RJ45. 
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120102240.jpg" alt="cable pelado" style="width:200px;"/>
+
+5. Insertamos los cables en el conector RJ45 siguiendo el esquema de colores tipo B y procedemos a crimparlo. 
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120103011.jpg" alt="cable pelado" style="width:200px;"/>
+
+6. Realizamos el mismo proceso en el otro extremo del cable.
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120104117.jpg" alt="cable pelado" style="width:200px;"/>
+
+
+
 
 #### ***Conclusiones***. <a name="id5"></a>
 
