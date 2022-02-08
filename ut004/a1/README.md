@@ -64,6 +64,9 @@ Finalmente, vamos a extraer el conector hembra y lo vamos a reemplazar por un ti
 
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/IMG20220120104117.jpg" alt="cable pelado" style="width:200px;"/>
 
+7. Comprobamos que funciona correctamente.
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a1/VID20220120113043.gif" alt="cable pelado" style="width:200px;"/>
 
 
 
