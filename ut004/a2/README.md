@@ -6,7 +6,7 @@
 
 </center>
 
-***Nahuel Ivan Troisi***
+***Nahuel Ivan Troisi*** <br>
 ***2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.*** 
 ### ÍNDICE
 
