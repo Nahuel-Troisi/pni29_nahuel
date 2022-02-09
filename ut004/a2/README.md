@@ -35,9 +35,11 @@ Vamos a reciclar el cable UTP de la práctica anterior y este lo vamos a inserta
 En la práctica anterior realizamos la creación de un cable UTP en ambos extremos del cable, por lo que vamos a reutilizar dicho cable. 
 Procederemos a cortar uno de los extremos del cable y a insertar cada uno de sus pares trenzados en el panel de parcheo mediante el esquema de colores que éste nos proporciona mediante el uso de la punchadora.
 
-<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a2/IMG20220208081214.jpg" alt="cable_parcheo" style="width:200px;"/>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a2/punchadora.jpg" alt="punchadora" style="width:200px;"/>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a2/IMG20220208081214.jpg" alt="cable_parcheo" style="width:500px;"/>
 
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Esta práctica ha sido bastante sencilla de realizar, ya que partimos de la base de la práctica anterior, por lo que ha sido únicamente insertar cada par trenzado en su ranura correspondiente mediante la herramienta proporcionada.
