@@ -6,9 +6,8 @@
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
-
+***Nahuel Ivan Troisi***
+***2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.*** 
 ### ÍNDICE
 
 + [Introducción](#id1)
@@ -19,24 +18,25 @@
 
 
 #### ***Introducción***. <a name="id1"></a>
-
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a realizar la instalación de un cable UTP en un panel de parcheo
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Vamos a reciclar el cable UTP de la práctica anterior y este lo vamos a insertar en un panel de parcheo
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
++ Cable UTP
++ Panel de parcheo
++ Punchadora
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+En la práctica anterior realizamos la creación de un cable UTP en ambos extremos del cable, por lo que vamos a reutilizar dicho cable. 
+Procederemos a cortar uno de los extremos del cable y a insertar cada uno de sus pares trenzados en el panel de parcheo mediante el esquema de colores que éste nos proporciona mediante el uso de la punchadora.
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut004/a2/IMG20220208081214.jpg" alt="cable_parcheo" style="width:200px;"/>
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
 
 #### ***Conclusiones***. <a name="id5"></a>
 
