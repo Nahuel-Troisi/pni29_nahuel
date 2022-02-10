@@ -6,8 +6,8 @@
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
+***Nahuel Ivan Troisi*** <br>
+***2º de Ciclo Superior de Administración de Sistemas Informáticos en Red*** 
 
 ### ÍNDICE
 
@@ -32,11 +32,31 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+***WINDOWS***
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
+<br>
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
+1. Liberar la configuración IP del adaptador con ***ipconfig /release*** y a continuación volver a usar el
+comando **ipconfig***.
+¿Cuál es la ip ahora?
+
+2. Ejecutar el comando ***ipconfig /renew*** solicitando una renovación de dirección IP. A continuación
+volver a ejecutar ***ipconfig***. ¿Cuál es la nueva ip?
+
+3. Ejecutar el comando ***ipconfig /displaydns*** y comprobar la información que contiene la caché DNS
+de tu equipo. Ejecuta ahora el comando ***ipconfig /flushdns*** y después muestra otra vez el
+contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
+
+4. Usar el navegador para ir a la web ***http://www.iespuertodelacruz.es*** y luego ejecutar el comando
+***ipconfig /displaydns***. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de
+ese nombre de dominio y pegarla aquí debajo.
+
+5. Borra la caché DNS con el comando ***ipconfig /flushdns*** y muestra una captura de pantalla en que
+se vea que ya no hay registros DNS en caché.
+
+<br>
+
+***LINUX***
 
 #### ***Conclusiones***. <a name="id5"></a>
 
