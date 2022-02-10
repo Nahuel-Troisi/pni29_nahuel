@@ -37,9 +37,9 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 __<ins> WINDOWS </ins>__
 
 
-| Dirección IPV4              	| 172.18.99.72                	|
+| Dirección IPV4              	| 192.168.1.157               	|
 |-----------------------------	|-----------------------------	|
-| Máscara                     	| 255.255.0.0                 	|
+| Máscara                     	| 255.255.255.0               	|
 | Gateway                     	| 172.18.0.1                  	|
 | MAC                         	| 08-00-27-BF-CB-3F           	|
 | Fabricante                  	| Intel                       	|
@@ -51,13 +51,16 @@ __<ins> WINDOWS </ins>__
 1. Liberar la configuración IP del adaptador con ***ipconfig /release*** y a continuación volver a usar el
 comando **ipconfig***.
 ¿Cuál es la ip ahora?
+Si hacemos uso de este comando estamos provocando la liberación de la IP, por lo que si consultamos de nuevo dicha IP, no tendremos respuesta. 
 
 2. Ejecutar el comando ***ipconfig /renew*** solicitando una renovación de dirección IP. A continuación
 volver a ejecutar ***ipconfig***. ¿Cuál es la nueva ip?
+La IP obtenida es la misma de la que partimos, es decir, 192.168.1.157. 
 
 3. Ejecutar el comando ***ipconfig /displaydns*** y comprobar la información que contiene la caché DNS
 de tu equipo. Ejecuta ahora el comando ***ipconfig /flushdns*** y después muestra otra vez el
 contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
+No nos muestra ninguna información, ya que hemos vaciado el caché DNS previamente. 
 
 4. Usar el navegador para ir a la web ***http://www.iespuertodelacruz.es*** y luego ejecutar el comando
 ***ipconfig /displaydns***. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de
@@ -70,9 +73,9 @@ se vea que ya no hay registros DNS en caché.
 __<ins> LINUX </ins>__
 
 
-| Dirección IPV4              	| 172.18.99.72                	|
+| Dirección IPV4              	| 192.168.1.157               	|
 |-----------------------------	|-----------------------------	|
-| Máscara                     	| 255.255.0.0                 	|
+| Máscara                     	| 255.255.255.0                	|
 | Gateway                     	| 172.18.0.1                  	|
 | MAC                         	| 08-00-27-BF-CB-3F           	|
 | Fabricante                  	| Intel                       	|
