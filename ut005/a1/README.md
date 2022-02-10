@@ -32,9 +32,21 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 #### ***Desarrollo***. <a name="id4"></a>
 
-***WINDOWS***
 
-<br>
+
+__<ins> WINDOWS </ins>__
+
+
+| Dirección IPV4              	| 172.18.99.72                	|
+|-----------------------------	|-----------------------------	|
+| Máscara                     	| 255.255.0.0                 	|
+| Gateway                     	| 172.18.0.1                  	|
+| MAC                         	| 08-00-27-BF-CB-3F           	|
+| Fabricante                  	| Intel                       	|
+| Dirección IPV6              	| fe80::fd6a:d7b3:2531:401e%5 	|
+| Servidores DNS              	| 80.58.61.250                	|
+| Tiemo de concesión de la IP 	| 1 día                       	|
+| Nombre del adaptador de red 	| PRO/1000 MT                 	|
 
 1. Liberar la configuración IP del adaptador con ***ipconfig /release*** y a continuación volver a usar el
 comando **ipconfig***.
@@ -54,9 +66,8 @@ ese nombre de dominio y pegarla aquí debajo.
 5. Borra la caché DNS con el comando ***ipconfig /flushdns*** y muestra una captura de pantalla en que
 se vea que ya no hay registros DNS en caché.
 
-<br>
 
-***LINUX***
+__<ins> LINUX </ins>__
 
 #### ***Conclusiones***. <a name="id5"></a>
 
