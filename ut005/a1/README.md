@@ -69,6 +69,38 @@ se vea que ya no hay registros DNS en caché.
 
 __<ins> LINUX </ins>__
 
+
+| Dirección IPV4              	| 172.18.99.72                	|
+|-----------------------------	|-----------------------------	|
+| Máscara                     	| 255.255.0.0                 	|
+| Gateway                     	| 172.18.0.1                  	|
+| MAC                         	| 08-00-27-BF-CB-3F           	|
+| Fabricante                  	| Intel                       	|
+| Dirección IPV6              	| fe80::fd6a:d7b3:2531:401e%5 	|
+| Servidores DNS              	| 80.58.61.250                	|
+| Tiemo de concesión de la IP 	| 1 día                       	|
+| Nombre del adaptador de red 	| PRO/1000 MT                 	|
+
+1. Desactiva tu tarjeta de red con el comando ***ifconfig eth0 down***. A continuación, comprueba con un
+ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea
+que ya no está activada.
+
+2. Usa el comando ***ifconfig –a*** para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue
+ahí.
+Ahora activa la tarjeta con el comando ***ifconfig eth0 up*** y luego con el comando ***ifconfig***
+comprueba que ya está habilitada.
+Usa el comando ***ifconfig eth0 192.168.99.99 netmask 255.255.255.0** y pega una captura de
+pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+3. Usa el comando ***ifconfig eth0 IP netmask*** Máscara (con la configuración inicial de red) y pega una
+captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+
+
+
+
+
+
 #### ***Conclusiones***. <a name="id5"></a>
 
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
