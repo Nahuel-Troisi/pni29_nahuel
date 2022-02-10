@@ -34,7 +34,7 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 
 
 
-__<ins> WINDOWS </ins>__
+__<ins> WINDOWS (IPCONFIG) </ins>__
 
 
 | Dirección IPV4              	| 192.168.1.157               	|
@@ -77,7 +77,7 @@ se vea que ya no hay registros DNS en caché.
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/2.png)
 
 
-__<ins> LINUX </ins>__
+__<ins> LINUX (IFCONFIG)</ins>__
 
 
 | Dirección IPV4              	| 192.168.1.157               	|
