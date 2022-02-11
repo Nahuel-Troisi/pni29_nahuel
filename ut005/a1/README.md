@@ -118,7 +118,7 @@ captura de pantalla que muestre que el adaptador de red se ha configurado correc
 <br>
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/7.png)
 
-### __<ins> COMANDO PING (IFCONFIG)</ins>__
+### __<ins> COMANDO PING </ins>__
 
 1. Ejecuta el comando ping –s 100 –c 2 ip_puertadeenlace para que se
 envíen dos ecos de 100 bytes. Muestra una captura de pantalla con el resultado.
