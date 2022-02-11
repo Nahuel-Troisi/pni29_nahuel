@@ -99,12 +99,17 @@ se vea que ya no hay registros DNS en caché.
 ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea
 que ya no está activada.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/3.png)
+
 2. Usa el comando ***ifconfig –a*** para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue
 ahí.
 Ahora activa la tarjeta con el comando ***ifconfig eth0 up*** y luego con el comando ***ifconfig***
 comprueba que ya está habilitada.
 Usa el comando ***ifconfig eth0 192.168.99.99 netmask 255.255.255.0** y pega una captura de
 pantalla que muestre que el adaptador de red se ha configurado correctamente.
+
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/4.png)
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/5.png)
 
 3. Usa el comando ***ifconfig eth0 IP netmask*** Máscara (con la configuración inicial de red) y pega una
 captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
