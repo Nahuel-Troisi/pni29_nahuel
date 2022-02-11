@@ -47,8 +47,8 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 | Tiemo de concesión de la IP 	| 1 día                       	|
 | Nombre del adaptador de red 	| PRO/1000 MT                 	|
 
-1. Liberar la configuración IP del adaptador con ***ipconfig /release*** y a continuación volver a usar el
-comando **ipconfig***.
+1. Liberar la configuración IP del adaptador con ipconfig /release y a continuación volver a usar el
+comando ipconfig.
 ¿Cuál es la ip ahora?
 
 ~~~ 
@@ -56,26 +56,26 @@ Si hacemos uso de este comando estamos provocando la liberación de la IP, por l
 dicha IP, no tendremos respuesta.
 ~~~
 
-2. Ejecutar el comando ***ipconfig /renew*** solicitando una renovación de dirección IP. A continuación
-volver a ejecutar ***ipconfig***. ¿Cuál es la nueva ip?
+2. Ejecutar el comando ipconfig /renew solicitando una renovación de dirección IP. A continuación
+volver a ejecutar ipconfig. ¿Cuál es la nueva ip?
 
 ~~~
 La IP obtenida es la misma de la que partimos, es decir, 192.168.1.157. 
 ~~~
-3. Ejecutar el comando ***ipconfig /displaydns*** y comprobar la información que contiene la caché DNS
-de tu equipo. Ejecuta ahora el comando ***ipconfig /flushdns*** y después muestra otra vez el
+3. Ejecutar el comando ipconfig /displaydns y comprobar la información que contiene la caché DNS
+de tu equipo. Ejecuta ahora el comando ipconfig /flushdns y después muestra otra vez el
 contenido de la caché DNS. ¿Qué información muestra ahora? ¿Qué ha ocurrido?
 
 ~~~
 No nos muestra ninguna información, ya que hemos vaciado el caché DNS previamente. 
 ~~~
-4. Usar el navegador para ir a la web ***http://www.iespuertodelacruz.es*** y luego ejecutar el comando
-***ipconfig /displaydns***. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de
+4. Usar el navegador para ir a la web http://www.iespuertodelacruz.es y luego ejecutar el comando
+ipconfig /displaydns. Hacer una captura de pantalla donde se muestre que se ha cacheado la ip de
 ese nombre de dominio y pegarla aquí debajo.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/1.png)
 
-5. Borra la caché DNS con el comando ***ipconfig /flushdns*** y muestra una captura de pantalla en que
+5. Borra la caché DNS con el comando ipconfig /flushdns y muestra una captura de pantalla en que
 se vea que ya no hay registros DNS en caché.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/2.png)
@@ -95,23 +95,23 @@ se vea que ya no hay registros DNS en caché.
 | Tiemo de concesión de la IP 	| 1 día                       	|
 | Nombre del adaptador de red 	| PRO/1000 MT                 	|
 
-1. Desactiva tu tarjeta de red con el comando ***ifconfig eth0 down***. A continuación, comprueba con un
+1. Desactiva tu tarjeta de red con el comando ifconfig eth0 down. A continuación, comprueba con un
 ifconfig que la tarjeta ya no aparece, se ha desactivado. Haz una captura de pantalla donde se vea
 que ya no está activada.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/3.png)
 
-2. Usa el comando ***ifconfig –a*** para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue
+2. Usa el comando ifconfig –a para ver que la tarjeta está desactivada, pero nadie la ha robado. Sigue
 ahí.
-Ahora activa la tarjeta con el comando ***ifconfig eth0 up*** y luego con el comando ***ifconfig***
+Ahora activa la tarjeta con el comando ifconfig eth0 up y luego con el comando ifconfig
 comprueba que ya está habilitada.
-Usa el comando ***ifconfig eth0 192.168.99.99 netmask 255.255.255.0** y pega una captura de
+Usa el comando ifconfig eth0 192.168.99.99 netmask 255.255.255.0 y pega una captura de
 pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/4.png)
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/5.png)
 
-3. Usa el comando ***ifconfig eth0 IP netmask*** Máscara (con la configuración inicial de red) y pega una
+3. Usa el comando ifconfig eth0 IP netmask Máscara (con la configuración inicial de red) y pega una
 captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/6.png)
