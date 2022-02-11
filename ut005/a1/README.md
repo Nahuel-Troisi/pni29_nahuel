@@ -221,13 +221,26 @@ Han habido 0 errores.
 1. Borra toda la caché ARP con el comando arp -d *. A continuación haz un ping a la puerta de
 enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta de enlace y su mac.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/19.png)
+
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/20.png)
+
 2. Ahora borra manualmente la entrada arp de la puerta de enlace con la orden arp -d
 ip_puertadeenlace. Luego introduce manualmente una mac falsa para la puerta de enlace en la
 tabla arp con el comando arp -s ip_puertadeenlace aa:bb:cc:dd:ee:ff Haz una captura de pantalla
 en que se vea el resultado del comando arp -a y de hacer un ping a google. Explica por qué ahora
 no hay internet.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/21.png)
+
+~~~
+No hay internet porque la dirección MAC es falsa, por lo tanto no se podrá
+establecer una conexión.
+~~~
+
 3. Borra la entrada falsa de la tabla arp con el comando arp -d ip_puertadeenlace.
+
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/22.png)
 
 ### __<ins> COMANDO NSLOOKUP </ins>__
 
