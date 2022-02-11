@@ -147,14 +147,19 @@ nuestro própio equipo, mientras que enviar paquetes a un servidor más lejano t
 
 1. Usa el comando route para ver la puerta de enlace de tu equipo. ¿Cuál es tu puerta de enlace?
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/11.png)
+
 2. Borra la puerta de enlace usando el comando Route del default gw ip_gateway. A continuación,
 ejecuta el comando route para comprobar que ya no hay puerta de enlace. Intenta navegar por
 internet y verás que tampoco puedes. Haz una captura de pantalla con la salida del comando
 route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devuelve el ping?
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/12.png)
+
 3. Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y
 comprueba que ya ha vuelto la puerta de enlace con el comando route.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/13.png)
 
 ### __<ins> COMANDO NETSTAT (IFCONFIG)</ins>__
 
