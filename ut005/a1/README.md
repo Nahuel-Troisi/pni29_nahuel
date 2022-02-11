@@ -36,9 +36,9 @@ Enumeramos el material empleado tanto hardware como software y las conficuracion
 ### __<ins> WINDOWS (IPCONFIG) </ins>__
 
 
-| Dirección IPV4              	| 192.168.1.157               	|
+| Dirección IPV4              	| 192.18.99.66                	|
 |-----------------------------	|-----------------------------	|
-| Máscara                     	| 255.255.255.0               	|
+| Máscara                     	| 255.255.0.0                 	|
 | Gateway                     	| 172.18.0.1                  	|
 | MAC                         	| 08-00-27-BF-CB-3F           	|
 | Fabricante                  	| Intel                       	|
@@ -84,9 +84,9 @@ se vea que ya no hay registros DNS en caché.
 ### __<ins> LINUX (IFCONFIG)</ins>__
 
 
-| Dirección IPV4              	| 192.168.1.157               	|
+| Dirección IPV4              	| 192.18.99.66                	|
 |-----------------------------	|-----------------------------	|
-| Máscara                     	| 255.255.255.0                	|
+| Máscara                     	| 255.255.0.0                 	|
 | Gateway                     	| 172.18.0.1                  	|
 | MAC                         	| 08-00-27-BF-CB-3F           	|
 | Fabricante                  	| Intel                       	|
@@ -114,8 +114,25 @@ pantalla que muestre que el adaptador de red se ha configurado correctamente.
 3. Usa el comando ***ifconfig eth0 IP netmask*** Máscara (con la configuración inicial de red) y pega una
 captura de pantalla que muestre que el adaptador de red se ha configurado correctamente.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/6.png)
+<br>
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/7.png)
 
+### __<ins> COMANDO PING (IFCONFIG)</ins>__
 
+1. Ejecuta el comando ping –s 100 –c 2 ip_puertadeenlace para que se
+envíen dos ecos de 100 bytes. Muestra una captura de pantalla con el resultado.
+
+![]()
+
+2. Usa el comando ping –i 2 ip_puertadeenlace para hacer un ping
+a nuestra puerta de enlace con un TTL igual a 2.
+Luego haz un ping de las mismas características, pero a google ping –i 2 www.google.es. Pega una
+captura de pantalla con el resultado y explica lo que ha pasado.
+
+3. El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra
+puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de
+latencia y compara los tiempos de latencia en ambos casos.
 
 
 
