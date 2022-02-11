@@ -174,16 +174,47 @@ comprueba que ya ha vuelto la puerta de enlace con el comando route.
 conexiones que tenemos abiertas por tcp. Pon una captura de pantalla del resultado y explica lo
 que es cada una de las columnas que aparecen.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/15.png)
+
+~~~
+El comando netstat genera visualizaciones que muestran el estado de la red y estadísticas de protocolo. 
+El estado de los protocolos TCP, SCTP y los puntos finales de UDP puede visualizarse en formato de tabla. 
+También puede visualizarse información sobre la tabla de enrutamiento e información de interfaces. 
+~~~
+
 2. Ahora espera unos segundos y vuelve a ejecutar netstat -tn. Comprobarás que algunas de las
 conexiones se han cerrado o están esperando para cerrarse. Además con la opción -n verás los resultados en formato numérico. Pon una captura de pantalla y explica la diferencia entre Established, Time_wait y Close_Wait.
+
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/16.png)
+
+~~~
+Debido a la forma en que funciona TCP / IP, las conexiones no se pueden cerrar de 
+inmediato. Los paquetes pueden llegar fuera de servicio o retransmitirse después de 
+que se haya cerrado la conexión. CLOSE_WAIT indica que el punto final remoto 
+(otro lado de la conexión) ha cerrado la conexión. TIME_WAIT indica que el punto 
+final local (este lado) ha cerrado la conexión. La conexión se mantiene para que los 
+paquetes retrasados puedan coincidir con la conexión y manejarse adecuadamente.
+~~~
 
 3. Ejecuta ahora la orden netstat -at para que muestre las tanto las conexiones tcp abiertas como los
 puertos que están a la escucha. Copia una captura de pantalla donde se vean los puertos que
 tienes escuchando, explica qué significan los asteriscos en la columna “Foreign address” e
 investiga si tener esos puertos abiertos es normal o supone una amenaza.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/17.png)
+
+~~~
+Foreign Address es la dirección IP del sistema al que se conectó.
+~~~
+
 4. Ejecuta el comando netstat -s para ver las estadísticas de red y haz una captura en la que se vean
 cuantos paquetes tcp has recibido y cuantos de ellos han sido erroneos.
+
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/18.png)
+
+~~~
+Han habido 0 errores. 
+~~~
 
 ### __<ins> COMANDO ARP </ins>__
 
