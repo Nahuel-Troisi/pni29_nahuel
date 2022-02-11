@@ -197,6 +197,12 @@ no hay internet.
 el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidorDNS
 8.8.8.8. Explica las causas de las diferencias que hay entre los resultados de las dos consultas.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/14.png)
+
+~~~
+La diferencia principal es que en el servidor del instituto, el DNS tiene un nombre totalmente distinto, mientras
+que en el del servidor de google, está correctamente identificado el propietario del mismo.
+~~~
 
 
 #### ***Conclusiones***. <a name="id5"></a>
