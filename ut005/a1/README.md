@@ -123,17 +123,74 @@ captura de pantalla que muestre que el adaptador de red se ha configurado correc
 1. Ejecuta el comando ping –s 100 –c 2 ip_puertadeenlace para que se
 envíen dos ecos de 100 bytes. Muestra una captura de pantalla con el resultado.
 
-![]()
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/8.png)
 
 2. Usa el comando ping –i 2 ip_puertadeenlace para hacer un ping
 a nuestra puerta de enlace con un TTL igual a 2.
 Luego haz un ping de las mismas características, pero a google ping –i 2 www.google.es. Pega una
 captura de pantalla con el resultado y explica lo que ha pasado.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/9.png)
+
 3. El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra
 puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de
 latencia y compara los tiempos de latencia en ambos casos.
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/10.png)
+
+~~~ 
+Como podemos comprobar, los tiempos de latencia son menores en el primer caso, ya que estamos transmitiendo datos a nuestro
+própio equipo, mientras que enviar paquetes a un servidor más lejano tomaría más tiempo. 
+~~~
+
+### __<ins> COMANDO ROUTE (IFCONFIG)</ins>__
+
+1. Usa el comando route para ver la puerta de enlace de tu equipo. ¿Cuál es tu puerta de enlace?
+
+2. Borra la puerta de enlace usando el comando Route del default gw ip_gateway. A continuación,
+ejecuta el comando route para comprobar que ya no hay puerta de enlace. Intenta navegar por
+internet y verás que tampoco puedes. Haz una captura de pantalla con la salida del comando
+route y del resultado de ping 8.8.8.8 ¿Cómo interpretas el mensaje que te devuelve el ping?
+
+3. Vuelve a configurar la puerta de enlace usando el comando route add default gw ip_gateway y
+comprueba que ya ha vuelto la puerta de enlace con el comando route.
+
+
+### __<ins> COMANDO NETSTAT (IFCONFIG)</ins>__
+
+1. Abre una página web cualquiera y luego ejecuta el comando netstat -t para que nos muestre las
+conexiones que tenemos abiertas por tcp. Pon una captura de pantalla del resultado y explica lo
+que es cada una de las columnas que aparecen.
+
+2. Ahora espera unos segundos y vuelve a ejecutar netstat -tn. Comprobarás que algunas de las
+conexiones se han cerrado o están esperando para cerrarse. Además con la opción -n verás los resultados en formato numérico. Pon una captura de pantalla y explica la diferencia entre Established, Time_wait y Close_Wait.
+
+3. Ejecuta ahora la orden netstat -at para que muestre las tanto las conexiones tcp abiertas como los
+puertos que están a la escucha. Copia una captura de pantalla donde se vean los puertos que
+tienes escuchando, explica qué significan los asteriscos en la columna “Foreign address” e
+investiga si tener esos puertos abiertos es normal o supone una amenaza.
+
+4. Ejecuta el comando netstat -s para ver las estadísticas de red y haz una captura en la que se vean
+cuantos paquetes tcp has recibido y cuantos de ellos han sido erroneos.
+
+### __<ins> COMANDO ARP (IFCONFIG)</ins>__
+
+1. Borra toda la caché ARP con el comando arp -d *. A continuación haz un ping a la puerta de
+enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta de enlace y su mac.
+
+2. Ahora borra manualmente la entrada arp de la puerta de enlace con la orden arp -d
+ip_puertadeenlace. Luego introduce manualmente una mac falsa para la puerta de enlace en la
+tabla arp con el comando arp -s ip_puertadeenlace aa:bb:cc:dd:ee:ff Haz una captura de pantalla
+en que se vea el resultado del comando arp -a y de hacer un ping a google. Explica por qué ahora
+no hay internet.
+
+3. Borra la entrada falsa de la tabla arp con el comando arp -d ip_puertadeenlace.
+
+### __<ins> COMANDO NSLOOKUP (IFCONFIG)</ins>__
+
+1. Averigua el nombre del servidor DNS de www.iespuertodelacruz.es. A continuación, ejecutamos
+el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidorDNS
+8.8.8.8. Explica las causas de las diferencias que hay entre los resultados de las dos consultas.
 
 
 
