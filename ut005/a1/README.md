@@ -132,6 +132,8 @@ captura de pantalla con el resultado y explica lo que ha pasado.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/9.png)
 
+![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/9.1.png)
+
 ~~~
 Lo que ocurre es que los paquetes no se van a enviar a nuestra puerta de enlace, mientras
 que al servidor de google sí lo hará. 
