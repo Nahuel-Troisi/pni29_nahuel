@@ -132,6 +132,11 @@ captura de pantalla con el resultado y explica lo que ha pasado.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/9.png)
 
+~~~
+Lo que ocurre es que los paquetes no se van a enviar a nuestra puerta de enlace, mientras
+que al servidor de google sí lo hará. 
+~~~
+
 3. El comando ping nos da información sobre el tiempo de latencia de una red. Haz un ping a nuestra
 puerta de enlace y luego a otro a www.google.es. Busca información de lo que es el tiempo de
 latencia y compara los tiempos de latencia en ambos casos.
