@@ -3,7 +3,6 @@
 
 # COMANDOS DE RED
 
-
 </center>
 
 ***Nahuel Ivan Troisi*** <br>
