@@ -143,7 +143,7 @@ Como podemos comprobar, los tiempos de latencia son menores en el primer caso, y
 nuestro própio equipo, mientras que enviar paquetes a un servidor más lejano tomaría más tiempo. 
 ~~~
 
-### __<ins> COMANDO ROUTE (IFCONFIG)</ins>__
+### __<ins> COMANDO ROUTE </ins>__
 
 1. Usa el comando route para ver la puerta de enlace de tu equipo. ¿Cuál es tu puerta de enlace?
 
@@ -161,7 +161,7 @@ comprueba que ya ha vuelto la puerta de enlace con el comando route.
 
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/13.png)
 
-### __<ins> COMANDO NETSTAT (IFCONFIG)</ins>__
+### __<ins> COMANDO NETSTAT </ins>__
 
 1. Abre una página web cualquiera y luego ejecuta el comando netstat -t para que nos muestre las
 conexiones que tenemos abiertas por tcp. Pon una captura de pantalla del resultado y explica lo
@@ -178,7 +178,7 @@ investiga si tener esos puertos abiertos es normal o supone una amenaza.
 4. Ejecuta el comando netstat -s para ver las estadísticas de red y haz una captura en la que se vean
 cuantos paquetes tcp has recibido y cuantos de ellos han sido erroneos.
 
-### __<ins> COMANDO ARP (IFCONFIG)</ins>__
+### __<ins> COMANDO ARP </ins>__
 
 1. Borra toda la caché ARP con el comando arp -d *. A continuación haz un ping a la puerta de
 enlace. Pon una captura de la tabla ARP en que se vea que solo está la puerta de enlace y su mac.
@@ -191,7 +191,7 @@ no hay internet.
 
 3. Borra la entrada falsa de la tabla arp con el comando arp -d ip_puertadeenlace.
 
-### __<ins> COMANDO NSLOOKUP (IFCONFIG)</ins>__
+### __<ins> COMANDO NSLOOKUP </ins>__
 
 1. Averigua el nombre del servidor DNS de www.iespuertodelacruz.es. A continuación, ejecutamos
 el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidorDNS
