@@ -1,7 +1,7 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# COMANDOS DE RED
 
 
 </center>
@@ -20,15 +20,15 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a realizar una serie de comandos de red, tanto en Linux como Windows, donde aprenderemos las diferencias visuales y prácticas entre ambos sistemas operativos y los respectivos comandos necesarios para comunicarnos con el terminal. 
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Aprender a usar los comandos de red correctamente, así como saber cual utilizar en cada situación. 
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+MV de Kali Linux y Windows 10, así como sus respectivos terminales. 
 
 #### ***Desarrollo***. <a name="id4"></a>
 
@@ -201,4 +201,4 @@ el comando nslookup nombreServidorDNS y luego el comando nslookup nombreServidor
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Ha sido una práctica bastante sencilla, aunque un poco extensa a mi parecer. No obstante, sirve para aprender a usar los comandos de red a nivel básico, que es lo que estamos buscando. 
