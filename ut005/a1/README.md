@@ -139,8 +139,8 @@ latencia y compara los tiempos de latencia en ambos casos.
 ![](https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a1/10.png)
 
 ~~~ 
-Como podemos comprobar, los tiempos de latencia son menores en el primer caso, ya que estamos transmitiendo datos a nuestro
-própio equipo, mientras que enviar paquetes a un servidor más lejano tomaría más tiempo. 
+Como podemos comprobar, los tiempos de latencia son menores en el primer caso, ya que estamos transmitiendo datos a 
+nuestro própio equipo, mientras que enviar paquetes a un servidor más lejano tomaría más tiempo. 
 ~~~
 
 ### __<ins> COMANDO ROUTE (IFCONFIG)</ins>__
