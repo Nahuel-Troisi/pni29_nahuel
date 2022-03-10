@@ -185,3 +185,4 @@ del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con és
 #### ***Conclusiones***. <a name="id5"></a>
 
 La práctica en general ha sido bastante sencilla, aunque ha habido algunos inconvenientes, ya que mi equipo de clase no permite la instalación del Packet Tracer y he tenido que usar una MV para poder realizar la práctica. 
+
