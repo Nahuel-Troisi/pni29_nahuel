@@ -166,20 +166,20 @@ Paso 3. Insertar los siguientes equipos con sus correspondientes configuraciones
 
 Paso 4. Comprobar la conectividad de los 4 equipos. <br><br>
 
-<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.4.png"> <br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.0.4.png"> <br>
 
 Paso 5. Introducir una nueva conexión entre switchs entre el SW01 puerto 4 y el
 SW04 puerto 1. Esto crea un circuito entre los equipos. Comprobar qué sucede con la
 comunicación entre equipos. <br><br>
 
-<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.5.png"> <br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.0.5.png"> <br>
 
 Paso 6. Eliminar la última conexión realizada. Añadir un Generic Hub‐PT y
 denominarlo HUB05. Utilizando el puerto 1 de este hub, unirlo al SW04 puerto 1.
 Insertar un nuevo equipo con la configuración PC05, 10.0.5.105, 255.255.0.0, al puerto
 del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con éste. <br><br>
 
-<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.6.png"> <br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.0.6.png"> <br>
 
 
 #### ***Conclusiones***. <a name="id5"></a>
