@@ -1,15 +1,13 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# PACKET TRACER I
 
 
 </center>
 
-***Nombre:***
-***Curso:*** 2º de Ciclo Superior de Administración de Sistemas Informáticos en Red.
-
-### ÍNDICE
+***Nahuel Ivan Troisi***
+***1º de Ciclo Superior de Administración de Sistemas Informáticos en Red.*** 
 
 + [Introducción](#id1)
 + [Objetivos](#id2)
@@ -20,23 +18,53 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Vamos a realizar una serie de practicas con el programa de Packet Tracer.
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Completar todas las actividades que nos pide el profesor.
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+Programa de Packet Tracer y una MV de Kali Linux. 
 
 #### ***Desarrollo***. <a name="id4"></a>
+#### Ejercicio 2. Tipos de cables en uniones entre equipos. <br><br>
 
-En esta parte explicamos detalladamente los pasos que seguimos para realizar la práctica incluyendo capturas de pantalla y explicando que vemos en ellas. 
+Paso 1. Unión de un PC con otro. Utilizar el cable adecuando de par trenzado hasta
+que se produzca comunicación (luces en verde en ambos extremos). <br><br>
 
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
+
+Paso 2. Unión de un PC con un switch (utilizaremos un 2950‐24 para todas las
+experiencias). Utilizar el cable adecuando de par trenzado hasta que se produzca
+comunicación (luces en verde en ambos extremos). <br><br>
+
+
+
+Paso 3. Unión de un switch con otro. Utilizar el cable adecuando de par trenzado
+hasta que se produzca comunicación (luces en verde en ambos extremos). <br><br>
+
+
+
+Paso 4. Unión de un PC con un router (utilizaremos el 1841 en todas las
+experiencias). Utilizar el cable adecuando de par trenzado hasta que se produzca
+comunicación (luces en verde en ambos extremos). <br><br>
+
+
+
+Paso 5. Unión de un switch con un router. Utilizar el cable adecuando de par
+trenzado hasta que se produzca comunicación (luces en verde en ambos extremos). <br><br>
+
+
+
+Paso 6. Unión de un switch con un hub (utilizaremos el HUB‐PT). Utilizar el cable
+adecuando de par trenzado hasta que se produzca comunicación (luces en verde en
+ambos extremos). <br><br>
+
+
+
+
 
 #### ***Conclusiones***. <a name="id5"></a>
 
