@@ -136,13 +136,52 @@ conectividad entre ellos utilizando la siguiente configuración para los ordenad
 
 <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.1.1.png"> <br>
 
 
+## Ejercicio 5. Unión entre switchs de comunicaciones. <br><br>
 
+Paso 1. Colocar 4 switchs 2950‐24, cambiando sus nombres a SW01, SW02, SW03 y SW04. <br><br>
 
+Paso 2. Realizar las siguientes conexiones entre switchs: <br>
 
+| Switch Origen | Puerto Origen | Switch Destino | Puerto Destino |
+|---------------|---------------|----------------|----------------|
+| SW 01         | 2             | SW 02          | 1              |
+| SW 01         | 3             | SW 03          | 1              |
+| SW 02         | 4             | SW 04          | 2              |
+
+<br>
+
+Paso 3. Insertar los siguientes equipos con sus correspondientes configuraciones: <br>
+
+| Nombre | IP         | Máscara     | Switch | Puerto |
+|--------|------------|-------------|--------|--------|
+| PC 01  | 10.0.1.101 | 255.255.0.0 | SW 01  | 11     |
+| PC 02  | 10.0.1.102 | 255.255.0.0 | SW 02  | 12     |
+| PC 03  | 10.0.1.103 | 255.255.0.0 | SW 03  | 13     |
+| PC 04  | 10.0.1.104 | 255.255.0.0 | SW 04  | 14     |
+
+<br>
+
+Paso 4. Comprobar la conectividad de los 4 equipos. <br><br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.4.png"> <br>
+
+Paso 5. Introducir una nueva conexión entre switchs entre el SW01 puerto 4 y el
+SW04 puerto 1. Esto crea un circuito entre los equipos. Comprobar qué sucede con la
+comunicación entre equipos. <br><br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.5.png"> <br>
+
+Paso 6. Eliminar la última conexión realizada. Añadir un Generic Hub‐PT y
+denominarlo HUB05. Utilizando el puerto 1 de este hub, unirlo al SW04 puerto 1.
+Insertar un nuevo equipo con la configuración PC05, 10.0.5.105, 255.255.0.0, al puerto
+del hub número 5. Comprobar la conectividad de los 4 equipos anteriores con éste. <br><br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a2/ejercicio%204.6.png"> <br>
 
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+La práctica en general ha sido bastante sencilla, aunque ha habido algunos inconvenientes, ya que mi equipo de clase no permite la instalación del Packet Tracer y he tenido que usar una MV para poder realizar la práctica. 
