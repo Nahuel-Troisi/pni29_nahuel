@@ -1,7 +1,7 @@
 
 <center>
 
-# TÍTULO DE LA PRÁCTICA
+# PRÁCTICA DE CABLE UTP - PANEL DE PARCHEO
 
 
 </center>
