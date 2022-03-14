@@ -64,7 +64,7 @@ Paso 2. Insertar los 15 equipos con la siguiente configuración: <br>
 | PC 14  | 192.168.1.33  | 255.255.255.224 | SW 02  | 15     |
 | PC 15  | 192.168.1.222 | 255.255.255.0   | SW 03  | 15     |
 
-<br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.2.png"><br>
 
 Paso 3. Calcular, de forma manual, qué equipos se comunican entre ellos.
 Comprobar estos cálculos con los aportados por las comunicaciones del ejemplo. <br><br>
