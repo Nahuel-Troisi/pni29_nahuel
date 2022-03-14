@@ -111,6 +111,8 @@ el cambio de los parámetros del switch) <br>
 Switch(config)# hostname Mi_primer_switch (cambia el nombre) <br>
 Mi_primer_switch (config)# (vemos como ya ha cambiado el nombre) <br><br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.2.png"> <br>
+
 Paso 3. Desactivar avisos de consola. Es una acción muy habitual, ya que, con cada
 modificación del estado de alguno de los parámetros del switch, se presenta un
 mensaje por consola. Por ejemplo, cuando apagamos o encendemos un equipo, se
@@ -144,6 +146,9 @@ no enable secret. <br>
 La mayoría de los desactivados en IOS CISCO se hacen colocando el comando no por
 delante del comando que lo activó. <br><br> 
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.4.png"> <br>
+
+
 Paso 5. Configurar dirección IP, máscara y puerta de enlace del switch.
 La dirección IP del propio switch la configuramos para su acceso a través de la VLAN1.
 Por eso, muchos fabricantes, llaman a esta VLAN1 la de gestión, ya que el
@@ -163,6 +168,8 @@ colocarlo si queremos acceder a él a través de un router, o para que se conect
 Internet para descargar actualizaciones, etc.) <br>
 Podemos comprobar que la IP funciona realizando un ping desde un equipo que esté
 enganchado al switch. <br><br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.5.png"> <br>
 
 Paso 6. Guardar la configuración.
 Con todos los pasos anteriores, hemos modificado la configuración de nuestro switch,
@@ -195,6 +202,8 @@ También volveremos a realizar el paso 5 de colocar la IP, ya que la necesitamos
 paso siguiente, y grabaremos la configuración. Podemos comprobar que la IP funciona
 realizando un ping desde un equipo que esté enganchado al switch. <br><br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.6.png"> <br>
+
 Paso 7. Acceso mediante Telnet.
 Además de tener configurada una dirección IP para nuestro switch, éste posee 5
 conexiones para telnet desde el exterior que pueden ser activadas. Lógicamente, al ser
@@ -211,6 +220,8 @@ Switch(config‐line)# login (activamos la petición de contraseña)  <br>
 Ahora, procederemos a acceder desde un ordenador conectado a ese switch mediante
 la opción de Escritorio, entrando en el modo comando, e invocando el comando
 Telnet <br><br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.7.pngg"> <br>
 
 
 ## Ejercicio 7. Configuración de puertos. <br><br>
