@@ -221,7 +221,7 @@ Ahora, procederemos a acceder desde un ordenador conectado a ese switch mediante
 la opción de Escritorio, entrando en el modo comando, e invocando el comando
 Telnet <br><br>
 
-<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.7.pngg"> <br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/6.7.png"> <br>
 
 
 ## Ejercicio 7. Configuración de puertos. <br><br>
