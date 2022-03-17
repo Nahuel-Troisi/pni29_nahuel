@@ -69,6 +69,12 @@ Paso 2. Insertar los 15 equipos con la siguiente configuración: <br>
 Paso 3. Calcular, de forma manual, qué equipos se comunican entre ellos.
 Comprobar estos cálculos con los aportados por las comunicaciones del ejemplo. <br><br>
 
+~~~
+Comprobamos la conexión entre equipos uno a uno y llegamos a la siguiente conclusión:
+
+~~~
+
+
 Paso 4. Comprobar las direcciones MAC que
 ha aprendido cada uno de los switchs. Para ello,
 entramos en el modo consola de cada uno de
@@ -80,6 +86,9 @@ Después, al cambiar el prompt de petición a
 tener un #, colocaremos el comando show
 mac‐address‐table. <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.4.1.png"><br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.4.2.png"><br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.4.3.png"><br>
 
 
 Verificamos que los resultados eran los
