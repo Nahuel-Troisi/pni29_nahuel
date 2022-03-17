@@ -102,6 +102,8 @@ Sobre la máquina virtual (no sobre el simulador) realizamos un ping a la direcc
 www.google.es. Este ping debe ser correcto. Comprobar y explicar qué elementos
 aparecen al realizar el comando arp –a después de esta comunicación. <br><br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.4.4.png"><br>
+
 
 Paso 5. Cambiar la configuración de tal forma que los equipos se comuniquen en
 grupos de 5 equipos (primer grupo PC01 al PC05, segundo grupo PC06 al PC10, tercer
