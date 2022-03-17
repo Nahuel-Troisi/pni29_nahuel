@@ -103,13 +103,22 @@ www.google.es. Este ping debe ser correcto. Comprobar y explicar qué elementos
 aparecen al realizar el comando arp –a después de esta comunicación. <br><br>
 
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.4.4.png"><br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.4.5.png"><br>
 
+~~~
+Al hacer ping a una nueva IP, esta se registra en la tabla ARP y se añade a la misma,
+por eso vemos que hay datos que han cambiado. 
+~~~
 
 Paso 5. Cambiar la configuración de tal forma que los equipos se comuniquen en
 grupos de 5 equipos (primer grupo PC01 al PC05, segundo grupo PC06 al PC10, tercer
 grupo PC11 al PC15). <br><br>
 
-
+~~~
+Para poder realizar este ejercicio, lo que debemos hacer es dividir
+los 5 grupos con 5 máscaras de red distintas y para mayor comodidad,
+cambiar las IP de los PC para que sean más fáciles de reconocer. 
+~~~
 
 ## Ejercicio 6. Seguridad y configuraciones de un switch. <br><br>
 
