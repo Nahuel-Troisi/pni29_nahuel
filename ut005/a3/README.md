@@ -234,14 +234,20 @@ el switch y el PC a Gigabit.
 Veamos cual es la situación normal del puerto: <br>
 Switch# show interfaces GigabitEthernet1/1  <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/7.1.png"> <br>
+
 De esta forma comprobamos la velocidad del puerto. <br>
 Si queremos cambiarla, utilizamos los comandos: <br>
 Switch# configure terminal <br>
 Switch(config)#interface gigabitEthernet1/1 <br>
 Switch(config‐if)#speed 10 <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/7.1.1.png"> <br>
+
 Y comprobamos que, ahora, la velocidad de nuestro puerto a cambia a 10 Mbps. <br>
 Switch# show interfaces GigabitEthernet1/1 <br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/7.1.2.png"> <br>
 
 Podemos hacer lo mismo colocando la velocidad a 100: <br>
 Switch(config)#interface gigabitEthernet1/1 <br>
@@ -249,7 +255,8 @@ Switch(config‐if)#speed 100 <br>
 O volviendo a colocar la velocidad en automático: <br>
 Switch(config)#interface gigabitEthernet1/1 <br>
 Switch(config‐if)#speed auto <br><br>
- 
+
+
 Paso 2. Desactivar un puerto.
 Hay momentos en que podremos necesitar el desactivar un puerto, ya sea porque la
 tarjeta de red del equipo no funciona correctamente, o por haber detectado que quien
@@ -263,6 +270,10 @@ Switch(config)#interface gigabitEthernet1/1 <br>
 Switch(config‐if)#shutdown <br>
 Comprobar el funcionamiento de este comando mediante el añadido de varios equipos 
 al switch a diferentes puertos <br><br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/7.2.png"> <br>
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/7.2.1.png"> <br>
 
 
 #### ***Conclusiones***. <a name="id5"></a>
