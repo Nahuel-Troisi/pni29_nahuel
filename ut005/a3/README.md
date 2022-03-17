@@ -301,4 +301,5 @@ al switch a diferentes puertos <br><br>
 
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Se nota que en nivel de dificultad va en aumento, ya que algunos apartados han llevado más tiempo del esperado, aun con todo, en líneas generales estoy
+contento con la práctica. 
