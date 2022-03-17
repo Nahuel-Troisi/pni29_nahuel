@@ -54,6 +54,8 @@ Paso 3. Comprobar la comunicación entre los diferentes PC’s, y su comunicaci�
 el punto de acceso. Observar esta comunicación en el modo simulación. ¿A qué te
 recuerda este tipo de propagación de tramas? <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/1.3.png"><br>
+
 Paso 4. Cambia la configuración de los equipos: <br>
 
 |       | IP             | Máscara de subred |
@@ -61,6 +63,9 @@ Paso 4. Cambia la configuración de los equipos: <br>
 | PC 01 | 192.168.101.11 | /24               |
 | PC 02 | 192.168.101.12 | /24               |
 | PC 03 | 192.168.101.13 | /24               |
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/1.4.png"><br>
+
 
 <br>
 
@@ -107,6 +112,8 @@ Paso 5. Comprobar las comunicaciones entre los seis PC’s, verificando que las
 comunicaciones no dependen de la red inalámbrica a la que se conecten, sino que
 configuran el punto de acceso al que se conectan. <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/2.5.png"><br>
+
 Paso 6. Cambiar el SSID del equipo PC05 de RED1 a red1. Comprobar que, para los
 puntos de acceso y las tarjetas de red, ambas configuraciones son diferentes. No es lo
 mismo SSID RED1 que SSID red1. <br>
@@ -132,6 +139,8 @@ Paso 2. Cambiar el SSID de las redes: <br>
 Paso 3. Introducir clave WEP en el punto de acceso de la RED1: clave WEP
 0123456789. <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/3.3.png"><br>
+
 Paso 4. Insertar tres PC’s con las siguientes configuraciones: <br>
 
 | Nombre |       IP      | Máscara de red |  SSID |
@@ -139,6 +148,9 @@ Paso 4. Insertar tres PC’s con las siguientes configuraciones: <br>
 |  PC 01 | 192.168.100.1 |       /24      | RED 1 |
 |  PC 02 | 192.168.100.2 |       /24      | RED 2 |
 |  PC 03 | 192.168.100.3 |       /24      | RED 1 |
+
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/3.4.png"><br>
+
 
 <br>
 
@@ -161,6 +173,9 @@ Paso 2. Cambiar el SSID de las redes: <br>
 Paso 3. Comprobar la configuración DHCP de los puntos de acceso para comprobar
 qué direcciones reparte cada uno de ellos. <br>
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/4.3.1.png"><br>
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/4.3.2.png"><br>
+
 Paso 4. Insertar cuatro PC’s con la siguiente configuración: <br>
 
 | Nombre | SSID  |
@@ -180,6 +195,7 @@ De esta forma se actualiza. No se recomienda en tener dos DHCP en la misma red L
 ya que no se puede asegurar cuál de ellos será el que asigne la dirección. Pero de esto
 hablaremos más adelante.
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a4/4.5.png"><br>
 
 
 #### ***Conclusiones***. <a name="id5"></a>
