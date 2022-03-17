@@ -42,11 +42,27 @@ mediante DHCP en el dispositivo inalámbrico. <br>
 
 Paso 2. Insertar tres PC’s inalámbricos, con las siguientes configuraciones: <br>
 
+|       | IP           | Máscara de subred |
+|-------|--------------|-------------------|
+| PC 01 | 192.168.1.11 | /24               |
+| PC 02 | 192.168.1.12 | /24               |
+| PC 03 | 192.168.1.13 | /24               |
+
+<br>
+
 Paso 3. Comprobar la comunicación entre los diferentes PC’s, y su comunicación con
 el punto de acceso. Observar esta comunicación en el modo simulación. ¿A qué te
 recuerda este tipo de propagación de tramas? <br>
 
 Paso 4. Cambia la configuración de los equipos: <br>
+
+|       | IP             | Máscara de subred |
+|-------|----------------|-------------------|
+| PC 01 | 192.168.101.11 | /24               |
+| PC 02 | 192.168.101.12 | /24               |
+| PC 03 | 192.168.101.13 | /24               |
+
+<br>
 
 
 Paso 5. Comprobar la comunicación entre los diferentes PC’s, y su comunicación con
@@ -63,7 +79,27 @@ Cambiar la configuración por defecto a 192.168.1.1 y máscara de red 255.255.25
 
 Paso 2. Cambiar el SSID de las redes: <br>
 
+|             |       |
+|-------------|-------|
+| 192.168.1.1 | RED 1 |
+| 192.168.2.1 | RED 2 |
+
+<br>
+
+
 Paso 3. Insertar seis PC’s inalámbricos, con las siguientes configuraciones: <br>
+
+|       |            | Máscara de red |  SSID |
+|:-----:|:----------:|:--------------:|:-----:|
+| PC 01 | 172.16.1.1 |       /24      | RED 1 |
+| PC 02 | 172.16.1.2 |       /24      | RED 2 |
+| PC 03 | 172.16.1.3 |       /24      | RED 1 |
+| PC 04 | 172.16.2.1 |       /24      | RED 2 |
+| PC 05 | 172.16.2.2 |       /24      | RED 1 |
+| PC 06 | 172.16.2.3 |       /24      | RED 2 |
+
+<br>
+
 
 Paso 4. Conectar entre sí ambos puntos de acceso por el puerto Ethernet 1. <br>
 
@@ -85,10 +121,26 @@ y máscara de red 255.255.255.0. <br>
 
 Paso 2. Cambiar el SSID de las redes: <br>
 
+|             |       |
+|-------------|-------|
+| 192.168.1.1 | RED 1 |
+| 192.168.2.1 | RED 2 |
+
+<br>
+
+
 Paso 3. Introducir clave WEP en el punto de acceso de la RED1: clave WEP
 0123456789. <br>
 
 Paso 4. Insertar tres PC’s con las siguientes configuraciones: <br>
+
+| Nombre |       IP      | Máscara de red |  SSID |
+|:------:|:-------------:|:--------------:|:-----:|
+|  PC 01 | 192.168.100.1 |       /24      | RED 1 |
+|  PC 02 | 192.168.100.2 |       /24      | RED 2 |
+|  PC 03 | 192.168.100.3 |       /24      | RED 1 |
+
+<br>
 
 
 ## Ejercicio 4. Inalámbrico: DHCP.
@@ -99,10 +151,27 @@ máscara de red 255.255.255.0. <br>
 
 Paso 2. Cambiar el SSID de las redes: <br>
 
+|             |       |
+|-------------|-------|
+| 192.168.1.1 | RED 1 |
+| 192.168.2.1 | RED 2 |
+
+<br>
+
 Paso 3. Comprobar la configuración DHCP de los puntos de acceso para comprobar
 qué direcciones reparte cada uno de ellos. <br>
 
 Paso 4. Insertar cuatro PC’s con la siguiente configuración: <br>
+
+| Nombre | SSID  |
+|--------|-------|
+| PC 01  | RED 1 |
+| PC 02  | RED 2 |
+| PC 03  | RED 1 |
+| PC 04  | RED 2 |
+
+<br>
+
 
 Paso 5. Cambiar el PC01 de RED1 a RED2. ¿Cambia su dirección IP? Para poder
 realizar el cambio, sin apagar y encender el PC, podemos dirigirnos al Escritorio del
