@@ -71,9 +71,9 @@ Comprobar estos cálculos con los aportados por las comunicaciones del ejemplo. 
 
 ~~~
 Comprobamos la conexión entre equipos uno a uno y llegamos a la siguiente conclusión:
-
 ~~~
 
+<img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut005/a3/5.3.png"><br>
 
 Paso 4. Comprobar las direcciones MAC que
 ha aprendido cada uno de los switchs. Para ello,
