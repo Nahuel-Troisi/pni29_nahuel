@@ -20,15 +20,15 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+Realizaremos una serie de prácticas en Packet Tracer. 
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Realizar correctamente los ejercicios que se piden.
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+MV de Kali Linux o en su defecto, de Windows 10 con el programa de Packet Tracer. 
 
 #### ***Desarrollo***. <a name="id4"></a>
 
@@ -79,6 +79,9 @@ consigue tecleando el comando enable.
 Después, al cambiar el prompt de petición a
 tener un #, colocaremos el comando show
 mac‐address‐table. <br>
+
+
+
 Verificamos que los resultados eran los
 requeridos.
 Señalar que, si no hay comunicación entre los equipos durante un tiempo, esta tabla se
