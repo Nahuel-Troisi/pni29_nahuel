@@ -7,32 +7,32 @@
 
 ## 1.Establecer la topología e inicializar los dispositivos
 	
-	a) Configurar los equipos. <br>
+	a) Configurar los equipos.
 	
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/1.1%20(1).png">
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/1.1%20(2).png">
 
-	b) Configurar el router. <br>
+	b) Configurar el router. 
 
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/1.1%20(3).png">
 
-	c) Configurar el switch. <br> 	
+	c) Configurar el switch. 	
 	
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/1.1%20(4).png">
 
 ## 2.Configurar dispositivos y verificar la conectividad
 
-	a) Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado. <br>
-	b) Ingrese al modo de configuración global. <br>
-	c) Asigne un nombre de dispositivo al router. <br>
+	a) Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado. 
+	b) Ingrese al modo de configuración global. 
+	c) Asigne un nombre de dispositivo al router. 
 	d) Deshabilite la búsqueda DNS para evitar que el router intente traducir los comandos incorrectamente
-	   introducidos como si fueran nombres de host. <br>
-	e) Establezca el requisito de que todas las contraseñas tengan como mínimo 10 caracteres. <br>
-	f) Asigne "cisco12345" como la contraseña cifrada del modo EXEC privilegiado. <br>
+	   introducidos como si fueran nombres de host. 
+	e) Establezca el requisito de que todas las contraseñas tengan como mínimo 10 caracteres. 
+	f) Asigne "cisco12345" como la contraseña cifrada del modo EXEC privilegiado. 
 	g) Asigne ciscoconpass como la contraseña de consola, establezca un tiempo de espera, habilite el inicio
 	   de sesión y agregue el comando "logging synchronous". El comando "logging synchronous" sincroniza
 	   la depuración y el resultado del software IOS de Cisco, y evita que estos mensajes interrumpan la
-	   entrada del teclado. <br>
+	   entrada del teclado.
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/2-ag.png">
 	h) Asigne "ciscovtypass" como la contraseña de vty, establezca un tiempo de espera, habilite el inicio de
 	   sesión y agregue el comando "logging synchronous". <br>
@@ -60,8 +60,8 @@
 
 ## 3.Mostrar la información del router
 
-	a) Establecer una sesión SSH para el R1. <br>
-	b) Recuperar información importante del hardware y el software. <br>
+	a) Establecer una sesión SSH para el R1. 
+	b) Recuperar información importante del hardware y el software. 
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.1%20(1).png">
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.1%20(2).png">
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.2.png">
@@ -78,7 +78,7 @@
 ## 4.Configurar IPv6 y verificar la conectividad
 
 	a) Asigne una dirección de unidifusión global IPv6 a la interfaz G0/0; asigne la dirección link-local en la
-	   interfaz, además de la dirección de unidifusión; y habilite el routing IPv6. <br> 
+	   interfaz, además de la dirección de unidifusión; y habilite el routing IPv6. 
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/4.1%20(a).png">
 	b) Use el comando show ipv6 int brief para verificar la configuración de IPv6 en el R1.
 	   Si no se asignó una dirección IPv6 a la G0/1, ¿por qué se indica como [up/up]? <br>
@@ -101,15 +101,15 @@
 
 ## 5.Inicialización y recarga de un router y un switch
 
-	a) Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado. <br>
+	a) Acceda al router mediante el puerto de consola y habilite el modo EXEC privilegiado. 
 	b) Escriba el comando erase startup-config para eliminar el archivo de configuración de inicio de la
-	   NVRAM. <br>
+	   NVRAM. 
 	c) Emita el comando "reload" para eliminar una configuración antigua de la memoria. Cuando reciba el
 	   mensaje Proceed with reload (Continuar con la recarga), presione Enter para confirmar. (Si presiona
-	   cualquier otra tecla, se cancela la recarga). <br>
+	   cualquier otra tecla, se cancela la recarga). 
 	d) Una vez que se vuelve a cargar el router, se le solicita introducir el diálogo de configuración inicial.
-	   Escriba "no" y presione "Enter". <br> 
-	e) Se le solicita finalizar la instalación automática. Escriba "yes" (sí) y, luego, presione "Enter". <br>
+	   Escriba "no" y presione "Enter". 
+	e) Se le solicita finalizar la instalación automática. Escriba "yes" (sí) y, luego, presione "Enter". 
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/Apendice_1.png">
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/Apendice_1.1.png">
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/Apendice_1.2.png">
