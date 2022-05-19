@@ -47,6 +47,10 @@ l) Configure el reloj en el router, por ejemplo: <br>
 m) Guarde la configuración en ejecución en el archivo de configuración de inicio.<br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/2-km.png"> <br>
 n) Haga ping a la PC-B en un símbolo del sistema en la PC-A.<br>
+~~~
+Los pings tuvieron éxito pero hubo alguna pérdida de paquetes. 
+Podría usarse el protocolo SSH para acceder remotamente de un PC a otro. 
+~~~
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/2.3%20(a).png"> <br>
 o) Acceda de forma remota al R1 desde la PC-A mediante el cliente de Telnet de Tera Term.
    Abra Tera Term e introduzca la dirección IP de la interfaz G0/1 del R1 en el campo Host: de la ventana
@@ -65,13 +69,23 @@ b) Recuperar información importante del hardware y el software. <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.1%20(1).png"> <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.1%20(2).png"> <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.2.png"> <br>
+~~~
+El S.O del router es "C1900", contiene 512MB de RAM y 520MB de memoria flash. 
+~~~
 c) Mostrar la configuración de inicio. <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.3%20(1).png"> <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.3%20(2).png"> <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.3%20(3).png"> <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.3%20(4).png"> <br>
+~~~
+La contraseña del router se encuentra encriptada para mayor seguiridad. 
+~~~
 d) Mostrar la tabla de routing en el router. <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.4.png"> <br>
+~~~
+Se utiliza el código "up" o "down" para indicar que hay conexión o ausencia de ella
+entre los dispositivos conectados al router. 
+~~~
 e) Mostrar una lista de resumen de las interfaces del router. <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/3.5.png"> <br>		
 
@@ -83,6 +97,10 @@ a) Asigne una dirección de unidifusión global IPv6 a la interfaz G0/0; asigne 
 b) Use el comando show ipv6 int brief para verificar la configuración de IPv6 en el R1.
    Si no se asignó una dirección IPv6 a la G0/1, ¿por qué se indica como (up/up)? <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/4.1%20(b).png"> <br>
+~~~
+Se utiliza el término (up/up) para indicar qué puertos tanto de entrada como se salida están
+habilitados. 
+~~~
 c) Emita el comando ipconfig en la PC-B para examinar la configuración de IPv6. <br>
    ¿Cuál es la dirección IPv6 asignada a la PC-B? <br>
    ¿Cuál es el gateway predeterminado asignado a la PC-B? <br>
@@ -91,6 +109,11 @@ c) Emita el comando ipconfig en la PC-B para examinar la configuración de IPv6.
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/4.1%20(c2).png"> <br>
    En la PC-B, haga ping a la dirección IPv6 de unidifusión del R1 2001:db8:acad:a::1. ¿Tuvo éxito? <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/4.1%20(c3).png"> <br>
+~~~
+La dirección asignada al PC-B se ha definido automáticamente, aunque su gateway es la misma que habíamos
+configurado al principio de la práctica. 
+El ping a la gateway del router ha tenido éxito, pero el ping a la dirección IPV6 no. 
+~~~
 d) Durante la investigación de un problema de conectividad de red, un técnico sospecha que no se habilitó una
   interfaz. ¿Qué comando show podría usar el técnico para resolver este problema? <br>
    Durante la investigación de un problema de conectividad de red, un técnico sospecha que se asignó una
@@ -98,6 +121,11 @@ d) Durante la investigación de un problema de conectividad de red, un técnico 
    problema? <br>
    Después de configurar IPv6 en la LAN de la PC-B en la interfaz G0/0 del R1, si hiciera ping de la PC-A a la
    dirección IPv6 de la PC-B, ¿el ping sería correcto? ¿Por qué o por qué no? <br>
+~~~
+El comando "show startup-config" y "show ipv6 int brief" nos ayudarán a identificar el problema
+de conexión. El ping falló debido a que la interfaz "g/01" del router no se ha configurado con
+una dirección IPV6, por lo que el PC-A solo dispone de IPV4. 
+~~~
 
 ## 5.Inicialización y recarga de un router y un switch
 
@@ -131,7 +159,8 @@ k) Una vez que se vuelve a cargar el switch, se le solicita introducir el diálo
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/Apendice_2.4.png"> <br>
 <img src="https://github.com/Nahuel-Troisi/pni29_nahuel/blob/main/ut007/a1/img/Apendice_2.5.png"> <br>
 	
-
-
+## Anotaciones
+Para una mayor eficiencia y rapidez a la hora de realizar la práctica se han agrupado varios apartados en una misma imagen, por ese
+motivo puede haber espacios en blanco entre distintas preguntas. 
 
 
